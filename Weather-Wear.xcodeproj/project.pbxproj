@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F7514C5297C391A00CF0733 /* TabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F7514C4297C391A00CF0733 /* TabBar.storyboard */; };
+		2F7514C8297C3EE000CF0733 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7514C7297C3EE000CF0733 /* MyPageViewController.swift */; };
+		2F7514CA297C3F4400CF0733 /* MyPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F7514C9297C3F4400CF0733 /* MyPage.storyboard */; };
 		2FB61CE1297C260500C5092E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB61CE0297C260500C5092E /* AppDelegate.swift */; };
 		2FB61CE3297C260500C5092E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB61CE2297C260500C5092E /* SceneDelegate.swift */; };
 		2FB61CE5297C260500C5092E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB61CE4297C260500C5092E /* ViewController.swift */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F7514C4297C391A00CF0733 /* TabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBar.storyboard; sourceTree = "<group>"; };
+		2F7514C7297C3EE000CF0733 /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
+		2F7514C9297C3F4400CF0733 /* MyPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyPage.storyboard; sourceTree = "<group>"; };
 		2FB61CDD297C260500C5092E /* Weather-Wear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weather-Wear.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FB61CE0297C260500C5092E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FB61CE2297C260500C5092E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +48,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F7514C6297C3EC100CF0733 /* MyPage */ = {
+			isa = PBXGroup;
+			children = (
+				2F7514C7297C3EE000CF0733 /* MyPageViewController.swift */,
+				2F7514C9297C3F4400CF0733 /* MyPage.storyboard */,
+			);
+			path = MyPage;
+			sourceTree = "<group>";
+		};
 		2FB61CD4297C260500C5092E = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +78,7 @@
 		2FB61CDF297C260500C5092E /* Weather-Wear */ = {
 			isa = PBXGroup;
 			children = (
+				2F7514C6297C3EC100CF0733 /* MyPage */,
 				2FB61CE0297C260500C5092E /* AppDelegate.swift */,
 				2FB61CE2297C260500C5092E /* SceneDelegate.swift */,
 				2FB61CE4297C260500C5092E /* ViewController.swift */,
@@ -70,6 +86,7 @@
 				2FB61CE9297C260600C5092E /* Assets.xcassets */,
 				2FB61CEB297C260600C5092E /* LaunchScreen.storyboard */,
 				2FB61CEE297C260600C5092E /* Info.plist */,
+				2F7514C4297C391A00CF0733 /* TabBar.storyboard */,
 			);
 			path = "Weather-Wear";
 			sourceTree = "<group>";
@@ -80,7 +97,6 @@
 				F3FA15FE215FA167DC398DBB /* Pods-Weather-Wear.debug.xcconfig */,
 				ACC1B18FFA9F17FDF2E19BB3 /* Pods-Weather-Wear.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -151,6 +167,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F7514C5297C391A00CF0733 /* TabBar.storyboard in Resources */,
+				2F7514CA297C3F4400CF0733 /* MyPage.storyboard in Resources */,
 				2FB61CED297C260600C5092E /* LaunchScreen.storyboard in Resources */,
 				2FB61CEA297C260600C5092E /* Assets.xcassets in Resources */,
 				2FB61CE8297C260500C5092E /* Main.storyboard in Resources */,
@@ -192,6 +210,7 @@
 				2FB61CE5297C260500C5092E /* ViewController.swift in Sources */,
 				2FB61CE1297C260500C5092E /* AppDelegate.swift in Sources */,
 				2FB61CE3297C260500C5092E /* SceneDelegate.swift in Sources */,
+				2F7514C8297C3EE000CF0733 /* MyPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
