@@ -16,6 +16,7 @@ class LoginViewController:UIViewController {
         super.viewDidLoad()
     }
     
+    // =============== < 카카오톡 로그인 > ===============
     @IBAction func kakaoLoginButtonTouchUpInside(_ sender: UIButton) {
         if (UserApi.isKakaoTalkLoginAvailable()) {
             
@@ -43,5 +44,7 @@ class LoginViewController:UIViewController {
                     // 관련 메소드 추가
                 }
             }
-        }}
+        }
+    }
 }
+    // ==================================================
