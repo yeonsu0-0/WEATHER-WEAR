@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21219" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21200"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -8,16 +8,80 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Watch View Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController storyboardIdentifier="watchVC" id="Y6W-OH-hqX" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="watchVC" id="Y6W-OH-hqX" customClass="WatchViewController" customModule="Weather_Wear" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="title_icon" translatesAutoresizingMaskIntoConstraints="NO" id="0ky-rV-77v">
+                                <rect key="frame" x="20" y="58" width="18" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="JTv-A5-Cox"/>
+                                    <constraint firstAttribute="width" constant="18" id="QlY-xu-Fmt"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WATCH" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qtp-8g-OK9">
+                                <rect key="frame" x="46" y="58" width="66" height="22"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="전체" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2rH-FB-8PZ">
+                                <rect key="frame" x="20" y="116" width="31.333333333333329" height="21.666666666666657"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h8Q-ul-JVQ" customClass="WKYTPlayerView">
+                                <rect key="frame" x="20" y="370" width="335" height="188.66666666666663"/>
+                                <color key="backgroundColor" systemColor="linkColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="h8Q-ul-JVQ" secondAttribute="height" multiplier="16:9" id="o0W-b6-rzb"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="amg-yD-eb8" customClass="WKYTPlayerView">
+                                <rect key="frame" x="20" y="578.66666666666663" width="335" height="188.33333333333337"/>
+                                <color key="backgroundColor" systemColor="linkColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="amg-yD-eb8" secondAttribute="height" multiplier="16:9" id="qgz-6z-YPP"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A79-o7-gTB" customClass="WKYTPlayerView">
+                                <rect key="frame" x="20" y="161.66666666666663" width="335" height="188.33333333333337"/>
+                                <color key="backgroundColor" systemColor="linkColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="A79-o7-gTB" secondAttribute="height" multiplier="16:9" id="iPK-N0-Cvj"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="h8Q-ul-JVQ" secondAttribute="trailing" constant="20" id="Dg4-ws-iH7"/>
+                            <constraint firstItem="qtp-8g-OK9" firstAttribute="leading" secondItem="0ky-rV-77v" secondAttribute="trailing" constant="8" id="ESQ-j1-fpF"/>
+                            <constraint firstItem="h8Q-ul-JVQ" firstAttribute="top" secondItem="A79-o7-gTB" secondAttribute="bottom" constant="20" id="ML8-hB-yF1"/>
+                            <constraint firstItem="amg-yD-eb8" firstAttribute="top" secondItem="h8Q-ul-JVQ" secondAttribute="bottom" constant="20" id="MjO-dp-x8E"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="A79-o7-gTB" secondAttribute="trailing" constant="20" id="RYB-y9-yTT"/>
+                            <constraint firstItem="2rH-FB-8PZ" firstAttribute="top" secondItem="qtp-8g-OK9" secondAttribute="bottom" constant="36" id="Rlv-FA-Tak"/>
+                            <constraint firstItem="0ky-rV-77v" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="UTD-in-1Pn"/>
+                            <constraint firstItem="A79-o7-gTB" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="bCN-aW-m04"/>
+                            <constraint firstItem="amg-yD-eb8" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="fRj-LM-ryT"/>
+                            <constraint firstItem="0ky-rV-77v" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="8" id="gis-Rg-TVr"/>
+                            <constraint firstItem="A79-o7-gTB" firstAttribute="top" secondItem="2rH-FB-8PZ" secondAttribute="bottom" constant="24" id="hoI-oB-yW5"/>
+                            <constraint firstItem="h8Q-ul-JVQ" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="jaf-nF-CNh"/>
+                            <constraint firstItem="qtp-8g-OK9" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="8" id="oDR-LF-Qm0"/>
+                            <constraint firstItem="2rH-FB-8PZ" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="rXM-1s-Tum"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="amg-yD-eb8" secondAttribute="trailing" constant="20" id="y2i-Zw-EhS"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="playerView" destination="A79-o7-gTB" id="ATw-LO-8rQ"/>
+                        <outlet property="playerView2" destination="h8Q-ul-JVQ" id="trA-f7-cHf"/>
+                        <outlet property="playerView3" destination="amg-yD-eb8" id="JGA-rP-W57"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -25,6 +89,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="title_icon" width="34" height="40"/>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
