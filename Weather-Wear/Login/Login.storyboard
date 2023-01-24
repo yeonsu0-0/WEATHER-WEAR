@@ -179,7 +179,7 @@
     <resources>
         <image name="kakao" width="30" height="20"/>
         <namedColor name="Main">
-            <color red="0.29411764705882354" green="0.32156862745098036" blue="0.96470588235294119" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.29411764705882354" green="0.32156862745098042" blue="0.96470588235294119" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="secondarySystemBackgroundColor">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
