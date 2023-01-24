@@ -14,6 +14,8 @@ import KakaoSDKAuth
 class LoginViewController:UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.navigationController?.navigationBar.tintColor = .white
     }
     
     // =============== < 카카오톡 로그인 > ===============
@@ -28,7 +30,8 @@ class LoginViewController:UIViewController {
                     print("카카오 톡으로 로그인 성공")
                     
                     _ = oauthToken
-                    /// 로그인 관련 메소드 추가
+                    // 로그인 관련 메소드 추가
+                    // 메인 화면으로 스토리보드 전환
                 }
             }
         } else {
