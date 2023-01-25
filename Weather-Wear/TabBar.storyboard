@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21219" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5bP-YV-7TR">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5bP-YV-7TR">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21200"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -32,13 +32,26 @@
                 <navigationController id="c4E-5O-WnK" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="홈" id="qCF-S4-4gL"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Lez-YW-WnD">
-                        <rect key="frame" x="0.0" y="50" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="47" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
+                    <connections>
+                        <segue destination="GXH-hU-dGW" kind="relationship" relationship="rootViewController" id="SZe-uA-1Xq"/>
+                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mYy-1A-91O" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2439" y="-1196"/>
+        </scene>
+        <!--HomeVC-->
+        <scene sceneID="e10-MA-kSi">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Home" referencedIdentifier="HomeVC" id="GXH-hU-dGW" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="jpE-a6-V3K"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Edh-c7-jKH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3083" y="-1241"/>
         </scene>
         <!--피드-->
         <scene sceneID="3fz-z2-iNS">
@@ -46,7 +59,7 @@
                 <navigationController id="OOV-af-hfh" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="피드" id="rh1-4B-seg"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Yre-99-W26">
-                        <rect key="frame" x="0.0" y="50" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="47" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                 </navigationController>
@@ -60,7 +73,7 @@
                 <navigationController id="V2g-RR-S8d" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="채널" id="6Sa-tN-ylh"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="1cu-ze-Tqx">
-                        <rect key="frame" x="0.0" y="50" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="47" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -87,7 +100,7 @@
                 <navigationController id="4b4-r1-wxF" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="마이페이지" id="54i-dk-RhF"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="QsC-Bs-yvr">
-                        <rect key="frame" x="0.0" y="50" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="47" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
