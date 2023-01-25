@@ -10,7 +10,7 @@
         <!--Tab Bar View Controller-->
         <scene sceneID="Vpg-Of-g4W">
             <objects>
-                <tabBarController id="5bP-YV-7TR" customClass="TabBarViewController" customModule="Weather_Wear" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="TabBarViewController" id="5bP-YV-7TR" customClass="TabBarViewController" customModule="Weather_Wear" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="V0Y-xP-U5a">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>

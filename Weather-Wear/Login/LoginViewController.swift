@@ -45,7 +45,13 @@ class LoginViewController:UIViewController {
                     
                     _ = oauthToken
                     // 관련 메소드 추가
+                    // 파일 불러오기
+                    let viewController = UIStoryboard(name: "TabBar", bundle: nil)
+                        .instantiateViewController(withIdentifier: "TabBarViewController")
                     
+                    guard let nextVC = viewController.storyboard?.instantiateViewController(withIdentifier: "TabBarViewController") as? TabBarViewController else { return }
+                    self.navigationController?.pushViewController(nextVC, animated: true)
+
                 }
             }
         }
