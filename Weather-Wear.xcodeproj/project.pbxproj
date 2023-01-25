@@ -27,6 +27,7 @@
 		DB4BA6DC29801092007E608B /* SpoqaHanSansNeo-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB4BA6D729801091007E608B /* SpoqaHanSansNeo-Medium.ttf */; };
 		DB4BA6DD29801092007E608B /* SpoqaHanSansNeo-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB4BA6D829801091007E608B /* SpoqaHanSansNeo-Light.ttf */; };
 		DB4BA6DE29801092007E608B /* SpoqaHanSansNeo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB4BA6D929801092007E608B /* SpoqaHanSansNeo-Bold.ttf */; };
+		DBC076172980EA8200729178 /* HomeWearInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC076162980EA8200729178 /* HomeWearInfo.swift */; };
 		DBF94FFA297D5FF300F9A777 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF94FF9297D5FF300F9A777 /* HomeViewController.swift */; };
 		DBF94FFC297D600600F9A777 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBF94FFB297D600600F9A777 /* Home.storyboard */; };
 		DBFFB3512980071900E81E4D /* HomeWeatherInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFFB3502980071900E81E4D /* HomeWeatherInfo.swift */; };
@@ -55,6 +56,7 @@
 		DB4BA6D729801091007E608B /* SpoqaHanSansNeo-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpoqaHanSansNeo-Medium.ttf"; sourceTree = "<group>"; };
 		DB4BA6D829801091007E608B /* SpoqaHanSansNeo-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpoqaHanSansNeo-Light.ttf"; sourceTree = "<group>"; };
 		DB4BA6D929801092007E608B /* SpoqaHanSansNeo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpoqaHanSansNeo-Bold.ttf"; sourceTree = "<group>"; };
+		DBC076162980EA8200729178 /* HomeWearInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWearInfo.swift; sourceTree = "<group>"; };
 		DBF94FF9297D5FF300F9A777 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DBF94FFB297D600600F9A777 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		DBFFB3502980071900E81E4D /* HomeWeatherInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWeatherInfo.swift; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 				DBF94FFB297D600600F9A777 /* Home.storyboard */,
 				DBF94FF9297D5FF300F9A777 /* HomeViewController.swift */,
 				DBFFB3502980071900E81E4D /* HomeWeatherInfo.swift */,
+				DBC076162980EA8200729178 /* HomeWearInfo.swift */,
 				DB4BA6D929801092007E608B /* SpoqaHanSansNeo-Bold.ttf */,
 				DB4BA6D829801091007E608B /* SpoqaHanSansNeo-Light.ttf */,
 				DB4BA6D729801091007E608B /* SpoqaHanSansNeo-Medium.ttf */,
@@ -299,6 +302,7 @@
 				2FB61CE1297C260500C5092E /* AppDelegate.swift in Sources */,
 				DBFFB3512980071900E81E4D /* HomeWeatherInfo.swift in Sources */,
 				2F4D58AF2980D70A003E1BC0 /* TabBarViewController.swift in Sources */,
+				DBC076172980EA8200729178 /* HomeWearInfo.swift in Sources */,
 				2FB61CE3297C260500C5092E /* SceneDelegate.swift in Sources */,
 				2FCE639D297D505A009DF514 /* LoginViewController.swift in Sources */,
 				2FCED25E29804041000947D2 /* WatchViewController.swift in Sources */,

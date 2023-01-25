@@ -1,12 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "logo.png",
+      "filename" : "shower_rain.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "logo 1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
