@@ -7,819 +7,125 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		005B319B494ED2DAA239B9939A504DFC /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EAFE2C535B3BEC29DF99040617C2C1F /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0107BA6D41B156CCE239A9FC8D46CB7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
-		045DE6EBF9B2F63F60F5BE60C1198E06 /* RedirectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADA71D77DDF8768F63F1135F298A014 /* RedirectHandler.swift */; };
-		04A896288CE3A59B530250337A5F8362 /* Result+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF58B645F5E8CA6094BB7FC074AD9A8 /* Result+Alamofire.swift */; };
-		0F4037DBF307AC8058BD0A3D35C7E7E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
-		124DBC5F5C5E206054872B399D1FD5E1 /* UserShippingAddresses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC0037DDBB33D81BAAA31B79C28C6B2 /* UserShippingAddresses.swift */; };
-		1976BB7D7E26A12E29283E71154B63B3 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9370B46EDD8549ABC04B4E86F48E98 /* SessionDelegate.swift */; };
-		1ADE9E4DA732DA450BCAEA3B7E887D0A /* KakaoSDKUser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0A3F55488EB8088FE025486016E4C0 /* KakaoSDKUser-dummy.m */; };
-		1DF563ACA1B087290224AA1BF3A523EB /* KakaoSDKUser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFF0F4886B9BF12DDAAAACD485647977 /* KakaoSDKUser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1EE44196E7BCE57AD96A2C751651EF40 /* AlamofireExtended.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE574B990A96214BAC337D6781E7E4C /* AlamofireExtended.swift */; };
-		2CBE3651CA006E19F5D64A2DE9B9A028 /* CachedResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAC7F33CD4592B4775E80394EAF389F /* CachedResponseHandler.swift */; };
-		2CCD13099063CD560E3067BD132914FA /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B683399005BAF5B27E7460C15D94FD4 /* Notifications.swift */; };
-		2CDB105CCAA8B7863714A312A6E1AFCF /* KakaoSDKCommon-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E65FEAE6BB09B653074F9294D54ABF7 /* KakaoSDKCommon-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		33A7D0F2D03004CE256A75E03DF33C70 /* RetryPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F7543D08C04717E953AD49377466C1 /* RetryPolicy.swift */; };
-		35CB81C6FE22A467D9C8417DD020B22D /* AccessTokenInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4DCAEED424324D988465C7D34230E6 /* AccessTokenInfo.swift */; };
-		3ADF3240D321DDCDE0EC5E6AB28CBB4C /* UserApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5B91810D409D63862AD35C429129AC /* UserApi.swift */; };
-		3C4059621E23842C19D4EB5D35B41989 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DF358E54D260EB7E1E71EA74D87814 /* Validation.swift */; };
-		3FD0F97A448AC77D73DD645D06AF00AA /* WKYTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B1C92BA55CA2367FEBC5FFA3D1C1A0 /* WKYTPlayerView.m */; };
-		402315EA1CEFA79B44D5E5D42577DDC9 /* YoutubePlayer-in-WKWebView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD31D36B7E1436D2FFC04C9743BD2C18 /* YoutubePlayer-in-WKWebView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4030656DF5EC13BE69F9ECDB5F0207F1 /* Date+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E5D43EEBC478A641708D8532C4A45B /* Date+Utils.swift */; };
-		4101313E2BE9F73773023ED222A0F541 /* SdkCoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B08BB2F4525207A23152938893F538 /* SdkCoder.swift */; };
-		43F4327D374B0A9699017A6A109EE4C0 /* KakaoSDKAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 86243CFA3A7D70BAF843C3D94CC0E7CD /* KakaoSDKAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46A64A43AFA057B6B63C8F0C12F509B4 /* Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC59461C87581DE584007364EF3B387D /* Combine.swift */; };
-		4B9FAC8A735E154859A932A6CD3F8042 /* AuthApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F423957664845B85C0E078296DC1A81 /* AuthApi.swift */; };
-		4BFE16DBDD7F6BF42E53AE3D5ADA7CC2 /* KakaoSDKAuth-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE5621FE88A8DD0B78DE77A070113322 /* KakaoSDKAuth-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		500ADBA9FBDBD6BBBB5D41D118DEFF78 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519A53F26E1C4C7224FCBDA882E54EEF /* User.swift */; };
-		5494FEB5F00F4D627A1286E7A87205D7 /* AuthErrorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D91692526B8EB348FB014E95751FEA /* AuthErrorInfo.swift */; };
-		553D8DBC64AD820211F7E8AEFD83272B /* UIApplication+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B140EDEE8079951CF6F047DA5C9C79 /* UIApplication+Utils.swift */; };
-		55AABB1FB38F61A3369ACC555FF3046D /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F92C1B53AB726E90479757E383D4901 /* Alamofire-dummy.m */; };
-		565899BF7AC417A90EB06C3B5D711CD5 /* KakaoSDKCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49CC3366459176EA3D892E75749DBE3 /* KakaoSDKCommon.swift */; };
-		5DD797A2EF449B8FC5C761BAF4EBFED3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
-		5E48D25DB5D26407096DECA1F6B99B33 /* KakaoSDKCommon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A3F07FE300F62433B4E7D81B6A70C45 /* KakaoSDKCommon-dummy.m */; };
-		5EA68DF825152B9219F20A023BDD4699 /* TokenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA4A01C6339BE6FF33C9308ACF7ECA9 /* TokenManager.swift */; };
-		61CEF4AE9EAE4FDEA123923CF826E32D /* TokenManagable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3C1A5CB7790A158BA19ADC751CBD91 /* TokenManagable.swift */; };
-		6698DD909F420C8ACE8EE3182AD5467B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
-		68FB2DCB4C77DBCAF9A6037E470F2BDE /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C9B6777C0F9436AB28A0B4FA4A48D0 /* ParameterEncoding.swift */; };
-		72186467C65BE057C455985447174C83 /* EncodingContainer+AnyCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F02D6282D3EA3F3F3AE1F6F0645E08A /* EncodingContainer+AnyCollection.swift */; };
-		74042BC8A8844C9A904F45867B8A5511 /* SdkUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FADF859B53E1649416D5FB4746E6AE /* SdkUtils.swift */; };
-		7483E5327027263F7E4B94A2997191C4 /* AuthenticationInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4AA740206CDC00630EAA248EB576E2 /* AuthenticationInterceptor.swift */; };
-		75966A9262648D4647D764E3E76BC6AC /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CA163635FF9D40245678748B9BCD48 /* Response.swift */; };
-		7888C91C42E576F434B4B7AB704557AA /* Dictionary+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0A909D9C168747D65D3EFABAF5B9A0 /* Dictionary+Utils.swift */; };
-		7930C94414B4C661867AC4FBE82E996C /* URLEncodedFormEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18162A54ED56D96DC93D54583F3FEF2C /* URLEncodedFormEncoder.swift */; };
-		7B068137A8925891446203B5D3D6A4ED /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3D57353834825F7B52B816066B7789 /* CFNetwork.framework */; };
-		7E02F5B62BE00E97847DF549FFED2490 /* HTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAB9F1269725B9A999DE817E671BD5A /* HTTPHeaders.swift */; };
-		7E75301041182F8037E6FF5908517DC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
-		7F1BB526AAE3ECDCE90127D9D0E10261 /* StringEncoding+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A477F1EEB6FF72E87E7152B67E9D9B0 /* StringEncoding+Alamofire.swift */; };
-		7FE695DA8EE7FF1286556E06B692009B /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4DBF1E50DFB6D0C70240B3E30B9E81 /* MultipartFormData.swift */; };
-		808C960C82D708FC1A42C581D6CB4940 /* URLSessionConfiguration+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F6C0F2DDC0416D621D44F26219008A /* URLSessionConfiguration+Alamofire.swift */; };
-		81B8D2B7CEB25C2448B0BC9B33591A65 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211BECECE2C4CF68E1AF55C65AB524A6 /* Session.swift */; };
-		824D816B1EE404F2DD400EE678695CBE /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23C4C3D4239800963373ADA7145BAF2 /* ResponseSerialization.swift */; };
-		8B5D0C28EBF08879C0CE9AF448520FA1 /* Data+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4818CD6B31DB5E0320EA386F71E1F0B9 /* Data+Utils.swift */; };
-		8D75FC8D7476C9674234F39F1A820D8C /* URLConvertible+URLRequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B7867EA6F2D8B7677EC0E94F77793 /* URLConvertible+URLRequestConvertible.swift */; };
-		8F3A0F86CECD995353288EEF1B87AB9B /* UserServiceTerms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0120C10730031694BAF9C27881111005 /* UserServiceTerms.swift */; };
-		9242ADA5A585C56A45580092F487D8B0 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD39FCB91CC750784F8C28E9DDBE6B9D /* Api.swift */; };
-		99D058E53EFEE3AC4857CDE3DBA5C004 /* ParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6B88627B8BCEF650AFECAB3F685DFD /* ParameterEncoder.swift */; };
-		9C9030DEDB0DF955B16FE08C50892D57 /* Concurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108225BE0DA8AF80724839D599DFB2A2 /* Concurrency.swift */; };
-		9CD688E0B22F23B04F16E6A3EFC0D143 /* KakaoSDKUser.h in Headers */ = {isa = PBXBuildFile; fileRef = C59BD7039B6B465CB2DE426AC49C89AF /* KakaoSDKUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A29100AA1876DDEFF6F54694A51FDB0E /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348FD48E2EF44AEF0E58E65C9B40A44A /* NetworkReachabilityManager.swift */; };
-		A51DF1B66A0D993231E27FDC6ADCACC2 /* YoutubePlayer-in-WKWebView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC32EF35E6338ED97C5788ECB99B6D5 /* YoutubePlayer-in-WKWebView-dummy.m */; };
-		A53BDE589BDD6483F3EEDCE5EA1DCCD3 /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3019B797A8A7BC4BD93A5417D5786981 /* Protected.swift */; };
-		A5DB49B760C2BA3BA9AB26BD31A20D12 /* ApiRequestAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EF67671531C3B8AF7A7290777F73E9 /* ApiRequestAdapter.swift */; };
-		A70FAEA747A946EC495E0F80E534DF88 /* DecodingContainer+AnyCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5746AFF061082068B25744E6124E2120 /* DecodingContainer+AnyCollection.swift */; };
-		AD0D847E00FC8B432B7A98AD17488872 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
-		B10E694D719FF502192A844EE133D3B8 /* ErrorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBFE8C2FB5B81037A86327090580ECE /* ErrorInfo.swift */; };
-		B186C28371510E2734F5EE66B5531FF7 /* URL+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3902812849E3E430013E083DAE7A546E /* URL+Utils.swift */; };
-		B3658C29BBDE1033F6269A92E612CB30 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931DA26D4E2ADD3557D21DF9FECF1A16 /* Request.swift */; };
-		B5C6D11992B89D0E4F6C0EB79F53483E /* Pods-Weather-Wear-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D6980D9AF380F1F8F59FC70C4D260D /* Pods-Weather-Wear-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B660C0CE51724B9FC919DAC5D6E5055A /* WKYTPlayerView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0034100F1137A6D41610D91329514A82 /* WKYTPlayerView.bundle */; };
-		B704B198B9B520D449260877E300D821 /* ServerTrustEvaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4513FA43D08A22FDCEECF13EDAF8ED /* ServerTrustEvaluation.swift */; };
-		B89F1EC50FC5D758CC898A8F35070911 /* WKYTPlayerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 33216EE8728DEF67A191A16BAD5AFD74 /* WKYTPlayerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BBC0D3B20D5BDBDB60CF6E2B0F543734 /* SdkLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41756EBD262C1C8BE4D32C1DEC7913E5 /* SdkLog.swift */; };
-		BC0ECA8F22DEDE8886E189CD0EAA1197 /* URLRequest+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = D504D5819D60440CAC4EE1704B1DA018 /* URLRequest+Alamofire.swift */; };
-		BDDE26EFFF0741F2986D4B1E969BCD34 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A79E0D9AC8AE0EEC1A0AB67DF534F2 /* Common.swift */; };
-		C0BE8AF05D287A95988ED28EA9725AE5 /* Scope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392E8E6ACC9445C85B42565D010CC0F5 /* Scope.swift */; };
-		C44A7E3B5D78DBB907373F514D1681F2 /* SdkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDF84EC80A3B4F3A70ED1C7BD06C276 /* SdkError.swift */; };
-		CA12388A0DA7E09355B3F2F3C9D7CD23 /* SdkCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B2D840BEE19F5F2CD8FE486F216D74 /* SdkCrypto.swift */; };
-		CC22DCFEF4B1BB632BB445C6E1AC9D7A /* Pods-Weather-Wear-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2936972B30648B58B75F3CA38C90D8F /* Pods-Weather-Wear-dummy.m */; };
-		CEBFFEED65D877702B2F36102528CF6D /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37749D8B23B9904B38B040D8B767D45 /* EventMonitor.swift */; };
-		D0EA90FBF83350C49E6EF6C8A98D6F00 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37080F7084B18F4FBAB2D7DF7C469573 /* AFError.swift */; };
-		D6B4751CED01D53E4A1B6A571AAA2F83 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37733C6929CD84361ADB5E386BE56A4 /* HTTPMethod.swift */; };
-		DA34899BEF0668D76CBCE8C4CE47B97B /* RequestTaskMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C28A8FD0389E6769D3294EE4E6D4749 /* RequestTaskMap.swift */; };
-		DAE2CA48171B091F73721E6B529F25DD /* MigrateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8997E3F13FE59B20A60EFBA4FEA28DCA /* MigrateManager.swift */; };
-		DBF8D4F984A174E86E793BC9EADA05BD /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACD7E0A4DB4D17E2ADE29A548D22930 /* Auth.swift */; };
-		DD902FE8D6824681C929D028655AE121 /* RequestInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC3287DBCFA37BE99608E15009EAC6D /* RequestInterceptor.swift */; };
-		E0753C47C449A54BAE20F64B26E6FE2F /* OAuthToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46DCD729A3A369259D79A38A1CC4430 /* OAuthToken.swift */; };
-		E54654D504A42C24F284A68F87F7671D /* OperationQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76E28E85EEB1BC4E778414B61655D47 /* OperationQueue+Alamofire.swift */; };
-		E9B4C89E7EB3B27D46AFCA452C3D426F /* MultipartUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F29DDE9FF7C355961D9109C52A4670A /* MultipartUpload.swift */; };
-		EEC150B66BCCD6C80FDA7E4D1975166B /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8D72067B87C5B4E9AA4A9D80DD5E1A /* DispatchQueue+Alamofire.swift */; };
-		EED5101CB4555DF89587088DEBB3B217 /* Urls.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA5ADF65987F98B35F6C2188CFA90E2 /* Urls.swift */; };
-		F17A4CA4664CABB331D39FE902E06843 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE40BA6A8A3D138D0CA9C70A7D942C82 /* Alamofire.swift */; };
-		F430B25C4A965B0A10A88320253F8104 /* AuthRequestRetrier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69C3D26FFA5A5B1A75908284A01D7DE /* AuthRequestRetrier.swift */; };
-		F520619BF52591C5F5B12F5939CF8C0A /* AuthRequestAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1FD425E39D026C0CD56649647638B6 /* AuthRequestAdapter.swift */; };
-		F7B4F105CBB227C8CD017B28B7B9489D /* AuthController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F033B7D6D17AA77DFD3AE42A8EEFC15E /* AuthController.swift */; };
-		F9433C726EA6B8E1D45960814E2749BA /* Array+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87262D3ADEABCAC35F7AB55977CC0AD /* Array+Utils.swift */; };
-		F97C82FD96BFFA976C986FA5CE2E62D1 /* Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0534034EC6BE822858DA6D920551B43F /* Properties.swift */; };
-		FE2BB468F7BFFF0BAEBD3F233D32F6F6 /* KakaoSDKAuth-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D7CA79BB34B947A05822E2004CF21D /* KakaoSDKAuth-dummy.m */; };
+		2CBBE0ACABA8717082EC7C3624C017CA /* Pods-Weather-Wear-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA181A1FA3523B45C463A3DC6B1773C3 /* Pods-Weather-Wear-dummy.m */; };
+		736A2918805B8C585E43A12A871A0F37 /* Pods-Weather-Wear-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64CEEF7C8F21DF0B83F9F503C1DCDDA7 /* Pods-Weather-Wear-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDF470C1683F56A0E5344EC536BCB645 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		32C2524572E4A200C360BB01CA98C995 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3F7BF367078951B6E8BC95B3DA89967A;
-			remoteInfo = KakaoSDKUser;
-		};
-		6CE545DEA88B3082A064BE1053875465 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DABE3AD6EBA3822D4F04FBC550E7158D;
-			remoteInfo = "YoutubePlayer-in-WKWebView";
-		};
-		88B8B84D51013636738D7841DA64FEFA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 83CA882AD877ED964BDF66235E416BC1;
-			remoteInfo = KakaoSDKAuth;
-		};
-		A131441F745057638550BA320714899E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 205D6EF1B8DCC8419E2F53266F6ADCDC;
-			remoteInfo = KakaoSDKCommon;
-		};
-		A8EED183A861C193F983D3E821CFA615 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
-			remoteInfo = Alamofire;
-		};
-		D38D10E462CDB83ABE2EC317353DC926 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
-			remoteInfo = Alamofire;
-		};
-		D6C5DF6D621494FCB8193DD4EEE27B73 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 205D6EF1B8DCC8419E2F53266F6ADCDC;
-			remoteInfo = KakaoSDKCommon;
-		};
-		EAA488C0A01FF4085806B389694DEBC6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 83CA882AD877ED964BDF66235E416BC1;
-			remoteInfo = KakaoSDKAuth;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		0034100F1137A6D41610D91329514A82 /* WKYTPlayerView.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = WKYTPlayerView.bundle; path = WKYTPlayerView/WKYTPlayerView.bundle; sourceTree = "<group>"; };
-		0120C10730031694BAF9C27881111005 /* UserServiceTerms.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserServiceTerms.swift; path = sources/KakaoSDKUser/model/UserServiceTerms.swift; sourceTree = "<group>"; };
-		0534034EC6BE822858DA6D920551B43F /* Properties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Properties.swift; path = sources/KakaoSDKCommon/common/common/Properties.swift; sourceTree = "<group>"; };
-		05EF67671531C3B8AF7A7290777F73E9 /* ApiRequestAdapter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApiRequestAdapter.swift; path = sources/KakaoSDKCommon/network/ApiRequestAdapter.swift; sourceTree = "<group>"; };
-		0662564489AB8353150493FE682DE616 /* Pods-Weather-Wear */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Weather-Wear"; path = Pods_Weather_Wear.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0743BB472F1DED25025B4F50BA875657 /* KakaoSDKUser-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KakaoSDKUser-Info.plist"; sourceTree = "<group>"; };
-		0A477F1EEB6FF72E87E7152B67E9D9B0 /* StringEncoding+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "StringEncoding+Alamofire.swift"; path = "Source/StringEncoding+Alamofire.swift"; sourceTree = "<group>"; };
-		0A4AA740206CDC00630EAA248EB576E2 /* AuthenticationInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationInterceptor.swift; path = Source/AuthenticationInterceptor.swift; sourceTree = "<group>"; };
-		0EBFE8C2FB5B81037A86327090580ECE /* ErrorInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ErrorInfo.swift; path = sources/KakaoSDKCommon/common/model/ErrorInfo.swift; sourceTree = "<group>"; };
-		0F8D72067B87C5B4E9AA4A9D80DD5E1A /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
-		108225BE0DA8AF80724839D599DFB2A2 /* Concurrency.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Concurrency.swift; path = Source/Concurrency.swift; sourceTree = "<group>"; };
-		1353D6A467F43A6A3EA21D310BD35A31 /* KakaoSDKUser */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KakaoSDKUser; path = KakaoSDKUser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		13F955CEFCE8D3F159578E93126FBA12 /* KakaoSDKCommon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KakaoSDKCommon.release.xcconfig; sourceTree = "<group>"; };
-		14B1C92BA55CA2367FEBC5FFA3D1C1A0 /* WKYTPlayerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKYTPlayerView.m; path = WKYTPlayerView/WKYTPlayerView.m; sourceTree = "<group>"; };
-		18162A54ED56D96DC93D54583F3FEF2C /* URLEncodedFormEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLEncodedFormEncoder.swift; path = Source/URLEncodedFormEncoder.swift; sourceTree = "<group>"; };
-		19F7543D08C04717E953AD49377466C1 /* RetryPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryPolicy.swift; path = Source/RetryPolicy.swift; sourceTree = "<group>"; };
-		1A0A909D9C168747D65D3EFABAF5B9A0 /* Dictionary+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Dictionary+Utils.swift"; path = "sources/KakaoSDKCommon/common/extension/Dictionary+Utils.swift"; sourceTree = "<group>"; };
-		200B7867EA6F2D8B7677EC0E94F77793 /* URLConvertible+URLRequestConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLConvertible+URLRequestConvertible.swift"; path = "Source/URLConvertible+URLRequestConvertible.swift"; sourceTree = "<group>"; };
-		211BECECE2C4CF68E1AF55C65AB524A6 /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Source/Session.swift; sourceTree = "<group>"; };
-		25BDA6E824AD6CBD857358A023C694AD /* KakaoSDKCommon */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KakaoSDKCommon; path = KakaoSDKCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A3DD00E7F39634E3B5D3E09D3E947A4 /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
-		2C0FDC012356225C35904ADE3E6AB8C4 /* KakaoSDKAuth-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KakaoSDKAuth-prefix.pch"; sourceTree = "<group>"; };
-		2C6002B6C216CC3C5A16EA19F05D92CB /* Pods-Weather-Wear-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Weather-Wear-Info.plist"; sourceTree = "<group>"; };
-		2E0A3F55488EB8088FE025486016E4C0 /* KakaoSDKUser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KakaoSDKUser-dummy.m"; sourceTree = "<group>"; };
-		3019B797A8A7BC4BD93A5417D5786981 /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Source/Protected.swift; sourceTree = "<group>"; };
-		31D0BB771E64A24867F0576C923EFB37 /* YoutubePlayer-in-WKWebView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YoutubePlayer-in-WKWebView-prefix.pch"; sourceTree = "<group>"; };
-		31D91692526B8EB348FB014E95751FEA /* AuthErrorInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthErrorInfo.swift; path = sources/KakaoSDKCommon/common/model/AuthErrorInfo.swift; sourceTree = "<group>"; };
-		3225A2853BCD3C7DC3CFBA86FB979CCD /* KakaoSDKAuth.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KakaoSDKAuth.modulemap; sourceTree = "<group>"; };
-		33216EE8728DEF67A191A16BAD5AFD74 /* WKYTPlayerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKYTPlayerView.h; path = WKYTPlayerView/WKYTPlayerView.h; sourceTree = "<group>"; };
-		348FD48E2EF44AEF0E58E65C9B40A44A /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
-		37080F7084B18F4FBAB2D7DF7C469573 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
-		37BCDC8F7788101A070B53C912C13869 /* KakaoSDKCommon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KakaoSDKCommon.debug.xcconfig; sourceTree = "<group>"; };
-		3902812849E3E430013E083DAE7A546E /* URL+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+Utils.swift"; path = "sources/KakaoSDKCommon/common/extension/URL+Utils.swift"; sourceTree = "<group>"; };
-		392E8E6ACC9445C85B42565D010CC0F5 /* Scope.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Scope.swift; path = sources/KakaoSDKUser/model/Scope.swift; sourceTree = "<group>"; };
-		3C2CEE7AA46D154040D2411C22126840 /* YoutubePlayer-in-WKWebView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "YoutubePlayer-in-WKWebView.release.xcconfig"; sourceTree = "<group>"; };
-		3C6B88627B8BCEF650AFECAB3F685DFD /* ParameterEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoder.swift; path = Source/ParameterEncoder.swift; sourceTree = "<group>"; };
-		3F423957664845B85C0E078296DC1A81 /* AuthApi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthApi.swift; path = sources/KakaoSDKAuth/auth/AuthApi.swift; sourceTree = "<group>"; };
-		41756EBD262C1C8BE4D32C1DEC7913E5 /* SdkLog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SdkLog.swift; path = sources/KakaoSDKCommon/common/common/SdkLog.swift; sourceTree = "<group>"; };
-		4317231CA63B23644B2C9717C52DA3BD /* Pods-Weather-Wear-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Weather-Wear-frameworks.sh"; sourceTree = "<group>"; };
-		4818CD6B31DB5E0320EA386F71E1F0B9 /* Data+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Utils.swift"; path = "sources/KakaoSDKCommon/common/extension/Data+Utils.swift"; sourceTree = "<group>"; };
-		4A2BB4639CFA236430BDEBB9F2AF33E8 /* KakaoSDKCommon-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KakaoSDKCommon-prefix.pch"; sourceTree = "<group>"; };
-		4BA4A01C6339BE6FF33C9308ACF7ECA9 /* TokenManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TokenManager.swift; path = sources/KakaoSDKAuth/auth/TokenManager.swift; sourceTree = "<group>"; };
-		4BAB9F1269725B9A999DE817E671BD5A /* HTTPHeaders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHeaders.swift; path = Source/HTTPHeaders.swift; sourceTree = "<group>"; };
-		4C28A8FD0389E6769D3294EE4E6D4749 /* RequestTaskMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestTaskMap.swift; path = Source/RequestTaskMap.swift; sourceTree = "<group>"; };
-		4DC1003569726D80613DB05368668F23 /* KakaoSDKCommon-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KakaoSDKCommon-Info.plist"; sourceTree = "<group>"; };
-		4F92C1B53AB726E90479757E383D4901 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
-		519A53F26E1C4C7224FCBDA882E54EEF /* User.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = User.swift; path = sources/KakaoSDKUser/model/User.swift; sourceTree = "<group>"; };
-		52B08BB2F4525207A23152938893F538 /* SdkCoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SdkCoder.swift; path = sources/KakaoSDKCommon/common/common/SdkCoder.swift; sourceTree = "<group>"; };
-		5746AFF061082068B25744E6124E2120 /* DecodingContainer+AnyCollection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DecodingContainer+AnyCollection.swift"; path = "sources/KakaoSDKCommon/common/extension/DecodingContainer+AnyCollection.swift"; sourceTree = "<group>"; };
-		5C3C1A5CB7790A158BA19ADC751CBD91 /* TokenManagable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TokenManagable.swift; path = sources/KakaoSDKAuth/auth/TokenManagable.swift; sourceTree = "<group>"; };
-		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F29DDE9FF7C355961D9109C52A4670A /* MultipartUpload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartUpload.swift; path = Source/MultipartUpload.swift; sourceTree = "<group>"; };
-		5F4DCAEED424324D988465C7D34230E6 /* AccessTokenInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AccessTokenInfo.swift; path = sources/KakaoSDKUser/model/AccessTokenInfo.swift; sourceTree = "<group>"; };
-		66D6980D9AF380F1F8F59FC70C4D260D /* Pods-Weather-Wear-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Weather-Wear-umbrella.h"; sourceTree = "<group>"; };
-		678E8241DC9582408380B10BD6A5762D /* KakaoSDKAuth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KakaoSDKAuth.release.xcconfig; sourceTree = "<group>"; };
-		6A3F07FE300F62433B4E7D81B6A70C45 /* KakaoSDKCommon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KakaoSDKCommon-dummy.m"; sourceTree = "<group>"; };
-		6B3A036698F22C6EFB00576EE5F8BB93 /* YoutubePlayer-in-WKWebView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YoutubePlayer-in-WKWebView-Info.plist"; sourceTree = "<group>"; };
-		6B683399005BAF5B27E7460C15D94FD4 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
-		6BDF84EC80A3B4F3A70ED1C7BD06C276 /* SdkError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SdkError.swift; path = sources/KakaoSDKCommon/common/common/SdkError.swift; sourceTree = "<group>"; };
-		7176778271A25E9E0F481594853E994A /* Pods-Weather-Wear.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Weather-Wear.debug.xcconfig"; sourceTree = "<group>"; };
-		72C9B6777C0F9436AB28A0B4FA4A48D0 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
-		73C2FAB877D40A4CFCD5907FBC42F1BD /* KakaoSDKUser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KakaoSDKUser.release.xcconfig; sourceTree = "<group>"; };
-		73D696301F07A688A49DD82F4270F3AD /* KakaoSDKUser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KakaoSDKUser.debug.xcconfig; sourceTree = "<group>"; };
-		74FADF859B53E1649416D5FB4746E6AE /* SdkUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SdkUtils.swift; path = sources/KakaoSDKCommon/common/common/SdkUtils.swift; sourceTree = "<group>"; };
-		7CF58B645F5E8CA6094BB7FC074AD9A8 /* Result+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Result+Alamofire.swift"; path = "Source/Result+Alamofire.swift"; sourceTree = "<group>"; };
-		7E65FEAE6BB09B653074F9294D54ABF7 /* KakaoSDKCommon-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KakaoSDKCommon-umbrella.h"; sourceTree = "<group>"; };
-		86243CFA3A7D70BAF843C3D94CC0E7CD /* KakaoSDKAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KakaoSDKAuth.h; path = sources/KakaoSDKAuth/KakaoSDKAuth.h; sourceTree = "<group>"; };
-		8997E3F13FE59B20A60EFBA4FEA28DCA /* MigrateManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MigrateManager.swift; path = sources/KakaoSDKAuth/auth/MigrateManager.swift; sourceTree = "<group>"; };
-		8B5B91810D409D63862AD35C429129AC /* UserApi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserApi.swift; path = sources/KakaoSDKUser/UserApi.swift; sourceTree = "<group>"; };
-		8BC3287DBCFA37BE99608E15009EAC6D /* RequestInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestInterceptor.swift; path = Source/RequestInterceptor.swift; sourceTree = "<group>"; };
-		8D10DDA0BDF26489BA88792FB2C277C2 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
-		8D3D57353834825F7B52B816066B7789 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		8F02D6282D3EA3F3F3AE1F6F0645E08A /* EncodingContainer+AnyCollection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "EncodingContainer+AnyCollection.swift"; path = "sources/KakaoSDKCommon/common/extension/EncodingContainer+AnyCollection.swift"; sourceTree = "<group>"; };
-		931DA26D4E2ADD3557D21DF9FECF1A16 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
-		93DF358E54D260EB7E1E71EA74D87814 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		9423746BBF617F1EC6E293560821F2A9 /* YoutubePlayer-in-WKWebView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "YoutubePlayer-in-WKWebView.modulemap"; sourceTree = "<group>"; };
-		94E5D43EEBC478A641708D8532C4A45B /* Date+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Utils.swift"; path = "sources/KakaoSDKCommon/common/extension/Date+Utils.swift"; sourceTree = "<group>"; };
-		9A9370B46EDD8549ABC04B4E86F48E98 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
-		9CC0037DDBB33D81BAAA31B79C28C6B2 /* UserShippingAddresses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserShippingAddresses.swift; path = sources/KakaoSDKUser/model/UserShippingAddresses.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9EAFE2C535B3BEC29DF99040617C2C1F /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		9F453801F27585052F413F613C847DB2 /* KakaoSDKAuth */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KakaoSDKAuth; path = KakaoSDKAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A23C4C3D4239800963373ADA7145BAF2 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
-		A37749D8B23B9904B38B040D8B767D45 /* EventMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventMonitor.swift; path = Source/EventMonitor.swift; sourceTree = "<group>"; };
-		A4179FB5A8ADDE2FFD846DF04A8F1865 /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
-		A46DCD729A3A369259D79A38A1CC4430 /* OAuthToken.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuthToken.swift; path = sources/KakaoSDKAuth/model/OAuthToken.swift; sourceTree = "<group>"; };
-		A5B140EDEE8079951CF6F047DA5C9C79 /* UIApplication+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIApplication+Utils.swift"; path = "sources/KakaoSDKCommon/common/extension/UIApplication+Utils.swift"; sourceTree = "<group>"; };
-		AC4513FA43D08A22FDCEECF13EDAF8ED /* ServerTrustEvaluation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustEvaluation.swift; path = Source/ServerTrustEvaluation.swift; sourceTree = "<group>"; };
-		AD4DBF1E50DFB6D0C70240B3E30B9E81 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
-		AD9E42E874C9760A9ECDEEAF06EC143E /* KakaoSDKUser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KakaoSDKUser-prefix.pch"; sourceTree = "<group>"; };
-		B2936972B30648B58B75F3CA38C90D8F /* Pods-Weather-Wear-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Weather-Wear-dummy.m"; sourceTree = "<group>"; };
-		B76E28E85EEB1BC4E778414B61655D47 /* OperationQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OperationQueue+Alamofire.swift"; path = "Source/OperationQueue+Alamofire.swift"; sourceTree = "<group>"; };
-		BC59461C87581DE584007364EF3B387D /* Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Combine.swift; path = Source/Combine.swift; sourceTree = "<group>"; };
-		BCA5ADF65987F98B35F6C2188CFA90E2 /* Urls.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Urls.swift; path = sources/KakaoSDKCommon/common/common/Urls.swift; sourceTree = "<group>"; };
-		BFF0F4886B9BF12DDAAAACD485647977 /* KakaoSDKUser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KakaoSDKUser-umbrella.h"; sourceTree = "<group>"; };
-		C1B2D840BEE19F5F2CD8FE486F216D74 /* SdkCrypto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SdkCrypto.swift; path = sources/KakaoSDKCommon/common/common/SdkCrypto.swift; sourceTree = "<group>"; };
-		C30D27D01364BDC218FD285F09A1C06E /* Pods-Weather-Wear.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Weather-Wear.modulemap"; sourceTree = "<group>"; };
-		C35D4844CA96B0BC87593FBD9F7DC7AE /* Pods-Weather-Wear.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Weather-Wear.release.xcconfig"; sourceTree = "<group>"; };
-		C3D7CA79BB34B947A05822E2004CF21D /* KakaoSDKAuth-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KakaoSDKAuth-dummy.m"; sourceTree = "<group>"; };
-		C59BD7039B6B465CB2DE426AC49C89AF /* KakaoSDKUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KakaoSDKUser.h; path = sources/KakaoSDKUser/KakaoSDKUser.h; sourceTree = "<group>"; };
-		C602336346017820ED5CC44D5F34BC5D /* Pods-Weather-Wear-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Weather-Wear-acknowledgements.plist"; sourceTree = "<group>"; };
-		CACD7E0A4DB4D17E2ADE29A548D22930 /* Auth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Auth.swift; path = sources/KakaoSDKAuth/auth/Auth.swift; sourceTree = "<group>"; };
-		CCE574B990A96214BAC337D6781E7E4C /* AlamofireExtended.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlamofireExtended.swift; path = Source/AlamofireExtended.swift; sourceTree = "<group>"; };
-		CD39FCB91CC750784F8C28E9DDBE6B9D /* Api.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Api.swift; path = sources/KakaoSDKCommon/network/Api.swift; sourceTree = "<group>"; };
-		CDAC7F33CD4592B4775E80394EAF389F /* CachedResponseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachedResponseHandler.swift; path = Source/CachedResponseHandler.swift; sourceTree = "<group>"; };
-		CE5621FE88A8DD0B78DE77A070113322 /* KakaoSDKAuth-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KakaoSDKAuth-umbrella.h"; sourceTree = "<group>"; };
-		D49CC3366459176EA3D892E75749DBE3 /* KakaoSDKCommon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KakaoSDKCommon.swift; path = sources/KakaoSDKCommon/common/KakaoSDKCommon.swift; sourceTree = "<group>"; };
-		D504D5819D60440CAC4EE1704B1DA018 /* URLRequest+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLRequest+Alamofire.swift"; path = "Source/URLRequest+Alamofire.swift"; sourceTree = "<group>"; };
-		D5F6C0F2DDC0416D621D44F26219008A /* URLSessionConfiguration+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLSessionConfiguration+Alamofire.swift"; path = "Source/URLSessionConfiguration+Alamofire.swift"; sourceTree = "<group>"; };
-		D87262D3ADEABCAC35F7AB55977CC0AD /* Array+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Utils.swift"; path = "sources/KakaoSDKCommon/common/extension/Array+Utils.swift"; sourceTree = "<group>"; };
-		DADA71D77DDF8768F63F1135F298A014 /* RedirectHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectHandler.swift; path = Source/RedirectHandler.swift; sourceTree = "<group>"; };
-		DD31D36B7E1436D2FFC04C9743BD2C18 /* YoutubePlayer-in-WKWebView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YoutubePlayer-in-WKWebView-umbrella.h"; sourceTree = "<group>"; };
-		DD4B8EED841C005DB6824A918668BF68 /* KakaoSDKUser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KakaoSDKUser.modulemap; sourceTree = "<group>"; };
-		DE0FAB1DA724AB86C0E299518F5E580A /* YoutubePlayer-in-WKWebView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "YoutubePlayer-in-WKWebView"; path = YoutubePlayer_in_WKWebView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF5DBC0E3DE51241D2753383EB2F74B2 /* KakaoSDKAuth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KakaoSDKAuth.debug.xcconfig; sourceTree = "<group>"; };
-		E0038915AA935FB7128F9EBB3AA0D272 /* KakaoSDKCommon.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KakaoSDKCommon.modulemap; sourceTree = "<group>"; };
-		E305BFA4DDFE38B9FEB41EE1BF2426F8 /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
-		E6CA163635FF9D40245678748B9BCD48 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
-		EA1FD425E39D026C0CD56649647638B6 /* AuthRequestAdapter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthRequestAdapter.swift; path = sources/KakaoSDKAuth/auth/AuthRequestAdapter.swift; sourceTree = "<group>"; };
-		ED4F25446AE36AE771A1D623658475CD /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
-		F033B7D6D17AA77DFD3AE42A8EEFC15E /* AuthController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthController.swift; path = sources/KakaoSDKAuth/auth/AuthController.swift; sourceTree = "<group>"; };
-		F2A79E0D9AC8AE0EEC1A0AB67DF534F2 /* Common.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Common.swift; path = sources/KakaoSDKCommon/common/common/Common.swift; sourceTree = "<group>"; };
-		F37733C6929CD84361ADB5E386BE56A4 /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = Source/HTTPMethod.swift; sourceTree = "<group>"; };
-		F5710ADCB21DD0D343FA4BA3A25841EC /* Pods-Weather-Wear-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Weather-Wear-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F63DB1807886F7C0B495319F86AA14C1 /* KakaoSDKAuth-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KakaoSDKAuth-Info.plist"; sourceTree = "<group>"; };
-		F69C3D26FFA5A5B1A75908284A01D7DE /* AuthRequestRetrier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthRequestRetrier.swift; path = sources/KakaoSDKAuth/auth/AuthRequestRetrier.swift; sourceTree = "<group>"; };
-		FACF1FCAEF29A28A6DB36A33C8A10B31 /* YoutubePlayer-in-WKWebView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "YoutubePlayer-in-WKWebView.debug.xcconfig"; sourceTree = "<group>"; };
-		FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		FDC32EF35E6338ED97C5788ECB99B6D5 /* YoutubePlayer-in-WKWebView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YoutubePlayer-in-WKWebView-dummy.m"; sourceTree = "<group>"; };
-		FE40BA6A8A3D138D0CA9C70A7D942C82 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		0662564489AB8353150493FE682DE616 /* Pods_Weather_Wear.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Weather_Wear.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CE643F486364465872E1969245B3652 /* Pods-Weather-Wear.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Weather-Wear.modulemap"; sourceTree = "<group>"; };
+		42E7DC2E7596E8964806BC20DA019F6F /* Pods-Weather-Wear.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Weather-Wear.release.xcconfig"; sourceTree = "<group>"; };
+		64CEEF7C8F21DF0B83F9F503C1DCDDA7 /* Pods-Weather-Wear-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Weather-Wear-umbrella.h"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		898526391DF5051A6FA248A272CA559F /* Pods-Weather-Wear-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Weather-Wear-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C048F20300B842F27688AB6EE0C43310 /* Pods-Weather-Wear.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Weather-Wear.debug.xcconfig"; sourceTree = "<group>"; };
+		DA181A1FA3523B45C463A3DC6B1773C3 /* Pods-Weather-Wear-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Weather-Wear-dummy.m"; sourceTree = "<group>"; };
+		DBBCAE72CE18F565393E964F8062744A /* Pods-Weather-Wear-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Weather-Wear-Info.plist"; sourceTree = "<group>"; };
+		EAE0B10CE68C708C967F2D63CB66DAED /* Pods-Weather-Wear-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Weather-Wear-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		15DC142A7EE833251AA37FC8E2B8E01F /* Frameworks */ = {
+		9FC1EC2365AA26DDED17B3DACF125211 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B068137A8925891446203B5D3D6A4ED /* CFNetwork.framework in Frameworks */,
-				0F4037DBF307AC8058BD0A3D35C7E7E9 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		910352DCC08667F7F5660928B8656471 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5DD797A2EF449B8FC5C761BAF4EBFED3 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C51312B196F921E81F563D591ED16E0C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7E75301041182F8037E6FF5908517DC2 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DF06FB5FBF8B8292568BC9ABE6BD880A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AD0D847E00FC8B432B7A98AD17488872 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E3FEF2F2B5A59C3B7AECDF290252B96D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6698DD909F420C8ACE8EE3182AD5467B /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F4030BE72B57E5F3F5265100F26A7EE3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0107BA6D41B156CCE239A9FC8D46CB7E /* Foundation.framework in Frameworks */,
+				BDF470C1683F56A0E5344EC536BCB645 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+		053B5F6F643658523E5D903192C718BA /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				61C8CC330A5CA84DA2F5F1D32AB07069 /* iOS */,
+				22094928BCD97BA0957F21844E102060 /* Pods-Weather-Wear */,
 			);
-			name = Frameworks;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		232B158554FBFAF5392F4B20E1324129 /* Pods */ = {
+		22094928BCD97BA0957F21844E102060 /* Pods-Weather-Wear */ = {
 			isa = PBXGroup;
 			children = (
-				BBDC90139BD52A16E3A0D7FAC878BD14 /* Alamofire */,
-				6C2EF9488ACE602D18D50B449E4C1C70 /* KakaoSDKAuth */,
-				7229E3322DC0888573629F6E5C56299D /* KakaoSDKCommon */,
-				5E98D7658696F20A130B182348F9B6F2 /* KakaoSDKUser */,
-				E330E4780B30F20122F296C0792AC9D8 /* YoutubePlayer-in-WKWebView */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		237898F64E1A5E63DFDC63FA78259DCC /* Pods-Weather-Wear */ = {
-			isa = PBXGroup;
-			children = (
-				C30D27D01364BDC218FD285F09A1C06E /* Pods-Weather-Wear.modulemap */,
-				F5710ADCB21DD0D343FA4BA3A25841EC /* Pods-Weather-Wear-acknowledgements.markdown */,
-				C602336346017820ED5CC44D5F34BC5D /* Pods-Weather-Wear-acknowledgements.plist */,
-				B2936972B30648B58B75F3CA38C90D8F /* Pods-Weather-Wear-dummy.m */,
-				4317231CA63B23644B2C9717C52DA3BD /* Pods-Weather-Wear-frameworks.sh */,
-				2C6002B6C216CC3C5A16EA19F05D92CB /* Pods-Weather-Wear-Info.plist */,
-				66D6980D9AF380F1F8F59FC70C4D260D /* Pods-Weather-Wear-umbrella.h */,
-				7176778271A25E9E0F481594853E994A /* Pods-Weather-Wear.debug.xcconfig */,
-				C35D4844CA96B0BC87593FBD9F7DC7AE /* Pods-Weather-Wear.release.xcconfig */,
+				0CE643F486364465872E1969245B3652 /* Pods-Weather-Wear.modulemap */,
+				898526391DF5051A6FA248A272CA559F /* Pods-Weather-Wear-acknowledgements.markdown */,
+				EAE0B10CE68C708C967F2D63CB66DAED /* Pods-Weather-Wear-acknowledgements.plist */,
+				DA181A1FA3523B45C463A3DC6B1773C3 /* Pods-Weather-Wear-dummy.m */,
+				DBBCAE72CE18F565393E964F8062744A /* Pods-Weather-Wear-Info.plist */,
+				64CEEF7C8F21DF0B83F9F503C1DCDDA7 /* Pods-Weather-Wear-umbrella.h */,
+				C048F20300B842F27688AB6EE0C43310 /* Pods-Weather-Wear.debug.xcconfig */,
+				42E7DC2E7596E8964806BC20DA019F6F /* Pods-Weather-Wear.release.xcconfig */,
 			);
 			name = "Pods-Weather-Wear";
 			path = "Target Support Files/Pods-Weather-Wear";
 			sourceTree = "<group>";
 		};
-		5E98D7658696F20A130B182348F9B6F2 /* KakaoSDKUser */ = {
+		310CD4264F273CF58E550372269B8F66 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5F4DCAEED424324D988465C7D34230E6 /* AccessTokenInfo.swift */,
-				C59BD7039B6B465CB2DE426AC49C89AF /* KakaoSDKUser.h */,
-				392E8E6ACC9445C85B42565D010CC0F5 /* Scope.swift */,
-				519A53F26E1C4C7224FCBDA882E54EEF /* User.swift */,
-				8B5B91810D409D63862AD35C429129AC /* UserApi.swift */,
-				0120C10730031694BAF9C27881111005 /* UserServiceTerms.swift */,
-				9CC0037DDBB33D81BAAA31B79C28C6B2 /* UserShippingAddresses.swift */,
-				CC873E0945774B704DB0D2795DD4F18C /* Support Files */,
-			);
-			name = KakaoSDKUser;
-			path = KakaoSDKUser;
-			sourceTree = "<group>";
-		};
-		61C8CC330A5CA84DA2F5F1D32AB07069 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				8D3D57353834825F7B52B816066B7789 /* CFNetwork.framework */,
-				FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		6413E2C19F2183DFD0C8C7D13F0361D3 /* Network */ = {
-			isa = PBXGroup;
-			children = (
-				CD39FCB91CC750784F8C28E9DDBE6B9D /* Api.swift */,
-				05EF67671531C3B8AF7A7290777F73E9 /* ApiRequestAdapter.swift */,
-			);
-			name = Network;
-			sourceTree = "<group>";
-		};
-		6C2EF9488ACE602D18D50B449E4C1C70 /* KakaoSDKAuth */ = {
-			isa = PBXGroup;
-			children = (
-				CACD7E0A4DB4D17E2ADE29A548D22930 /* Auth.swift */,
-				3F423957664845B85C0E078296DC1A81 /* AuthApi.swift */,
-				F033B7D6D17AA77DFD3AE42A8EEFC15E /* AuthController.swift */,
-				EA1FD425E39D026C0CD56649647638B6 /* AuthRequestAdapter.swift */,
-				F69C3D26FFA5A5B1A75908284A01D7DE /* AuthRequestRetrier.swift */,
-				86243CFA3A7D70BAF843C3D94CC0E7CD /* KakaoSDKAuth.h */,
-				8997E3F13FE59B20A60EFBA4FEA28DCA /* MigrateManager.swift */,
-				A46DCD729A3A369259D79A38A1CC4430 /* OAuthToken.swift */,
-				5C3C1A5CB7790A158BA19ADC751CBD91 /* TokenManagable.swift */,
-				4BA4A01C6339BE6FF33C9308ACF7ECA9 /* TokenManager.swift */,
-				8E2EC2B3548C6E7692209C72973978E4 /* Support Files */,
-			);
-			name = KakaoSDKAuth;
-			path = KakaoSDKAuth;
-			sourceTree = "<group>";
-		};
-		6EE28AF3702261281DA5ADDEC1390BE9 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				D87262D3ADEABCAC35F7AB55977CC0AD /* Array+Utils.swift */,
-				31D91692526B8EB348FB014E95751FEA /* AuthErrorInfo.swift */,
-				F2A79E0D9AC8AE0EEC1A0AB67DF534F2 /* Common.swift */,
-				4818CD6B31DB5E0320EA386F71E1F0B9 /* Data+Utils.swift */,
-				94E5D43EEBC478A641708D8532C4A45B /* Date+Utils.swift */,
-				5746AFF061082068B25744E6124E2120 /* DecodingContainer+AnyCollection.swift */,
-				1A0A909D9C168747D65D3EFABAF5B9A0 /* Dictionary+Utils.swift */,
-				8F02D6282D3EA3F3F3AE1F6F0645E08A /* EncodingContainer+AnyCollection.swift */,
-				0EBFE8C2FB5B81037A86327090580ECE /* ErrorInfo.swift */,
-				D49CC3366459176EA3D892E75749DBE3 /* KakaoSDKCommon.swift */,
-				0534034EC6BE822858DA6D920551B43F /* Properties.swift */,
-				52B08BB2F4525207A23152938893F538 /* SdkCoder.swift */,
-				C1B2D840BEE19F5F2CD8FE486F216D74 /* SdkCrypto.swift */,
-				6BDF84EC80A3B4F3A70ED1C7BD06C276 /* SdkError.swift */,
-				41756EBD262C1C8BE4D32C1DEC7913E5 /* SdkLog.swift */,
-				74FADF859B53E1649416D5FB4746E6AE /* SdkUtils.swift */,
-				A5B140EDEE8079951CF6F047DA5C9C79 /* UIApplication+Utils.swift */,
-				3902812849E3E430013E083DAE7A546E /* URL+Utils.swift */,
-				BCA5ADF65987F98B35F6C2188CFA90E2 /* Urls.swift */,
-			);
-			name = Common;
-			sourceTree = "<group>";
-		};
-		7229E3322DC0888573629F6E5C56299D /* KakaoSDKCommon */ = {
-			isa = PBXGroup;
-			children = (
-				6EE28AF3702261281DA5ADDEC1390BE9 /* Common */,
-				6413E2C19F2183DFD0C8C7D13F0361D3 /* Network */,
-				E2EB84305F2C20704A398BCF44C49BBD /* Support Files */,
-			);
-			name = KakaoSDKCommon;
-			path = KakaoSDKCommon;
-			sourceTree = "<group>";
-		};
-		8E2EC2B3548C6E7692209C72973978E4 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3225A2853BCD3C7DC3CFBA86FB979CCD /* KakaoSDKAuth.modulemap */,
-				C3D7CA79BB34B947A05822E2004CF21D /* KakaoSDKAuth-dummy.m */,
-				F63DB1807886F7C0B495319F86AA14C1 /* KakaoSDKAuth-Info.plist */,
-				2C0FDC012356225C35904ADE3E6AB8C4 /* KakaoSDKAuth-prefix.pch */,
-				CE5621FE88A8DD0B78DE77A070113322 /* KakaoSDKAuth-umbrella.h */,
-				DF5DBC0E3DE51241D2753383EB2F74B2 /* KakaoSDKAuth.debug.xcconfig */,
-				678E8241DC9582408380B10BD6A5762D /* KakaoSDKAuth.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/KakaoSDKAuth";
-			sourceTree = "<group>";
-		};
-		98528D9F7EA09C8B086C0BE9CB2F5900 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9423746BBF617F1EC6E293560821F2A9 /* YoutubePlayer-in-WKWebView.modulemap */,
-				FDC32EF35E6338ED97C5788ECB99B6D5 /* YoutubePlayer-in-WKWebView-dummy.m */,
-				6B3A036698F22C6EFB00576EE5F8BB93 /* YoutubePlayer-in-WKWebView-Info.plist */,
-				31D0BB771E64A24867F0576C923EFB37 /* YoutubePlayer-in-WKWebView-prefix.pch */,
-				DD31D36B7E1436D2FFC04C9743BD2C18 /* YoutubePlayer-in-WKWebView-umbrella.h */,
-				FACF1FCAEF29A28A6DB36A33C8A10B31 /* YoutubePlayer-in-WKWebView.debug.xcconfig */,
-				3C2CEE7AA46D154040D2411C22126840 /* YoutubePlayer-in-WKWebView.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/YoutubePlayer-in-WKWebView";
-			sourceTree = "<group>";
-		};
-		9D4D29056B54D1F35502A2675D8D530B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */,
-				9F453801F27585052F413F613C847DB2 /* KakaoSDKAuth */,
-				25BDA6E824AD6CBD857358A023C694AD /* KakaoSDKCommon */,
-				1353D6A467F43A6A3EA21D310BD35A31 /* KakaoSDKUser */,
-				0662564489AB8353150493FE682DE616 /* Pods-Weather-Wear */,
-				DE0FAB1DA724AB86C0E299518F5E580A /* YoutubePlayer-in-WKWebView */,
+				0662564489AB8353150493FE682DE616 /* Pods_Weather_Wear.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9E626B1053FF831255D077C7572A1949 /* Targets Support Files */ = {
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				237898F64E1A5E63DFDC63FA78259DCC /* Pods-Weather-Wear */,
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		BBDC90139BD52A16E3A0D7FAC878BD14 /* Alamofire */ = {
-			isa = PBXGroup;
-			children = (
-				37080F7084B18F4FBAB2D7DF7C469573 /* AFError.swift */,
-				FE40BA6A8A3D138D0CA9C70A7D942C82 /* Alamofire.swift */,
-				CCE574B990A96214BAC337D6781E7E4C /* AlamofireExtended.swift */,
-				0A4AA740206CDC00630EAA248EB576E2 /* AuthenticationInterceptor.swift */,
-				CDAC7F33CD4592B4775E80394EAF389F /* CachedResponseHandler.swift */,
-				BC59461C87581DE584007364EF3B387D /* Combine.swift */,
-				108225BE0DA8AF80724839D599DFB2A2 /* Concurrency.swift */,
-				0F8D72067B87C5B4E9AA4A9D80DD5E1A /* DispatchQueue+Alamofire.swift */,
-				A37749D8B23B9904B38B040D8B767D45 /* EventMonitor.swift */,
-				4BAB9F1269725B9A999DE817E671BD5A /* HTTPHeaders.swift */,
-				F37733C6929CD84361ADB5E386BE56A4 /* HTTPMethod.swift */,
-				AD4DBF1E50DFB6D0C70240B3E30B9E81 /* MultipartFormData.swift */,
-				5F29DDE9FF7C355961D9109C52A4670A /* MultipartUpload.swift */,
-				348FD48E2EF44AEF0E58E65C9B40A44A /* NetworkReachabilityManager.swift */,
-				6B683399005BAF5B27E7460C15D94FD4 /* Notifications.swift */,
-				B76E28E85EEB1BC4E778414B61655D47 /* OperationQueue+Alamofire.swift */,
-				3C6B88627B8BCEF650AFECAB3F685DFD /* ParameterEncoder.swift */,
-				72C9B6777C0F9436AB28A0B4FA4A48D0 /* ParameterEncoding.swift */,
-				3019B797A8A7BC4BD93A5417D5786981 /* Protected.swift */,
-				DADA71D77DDF8768F63F1135F298A014 /* RedirectHandler.swift */,
-				931DA26D4E2ADD3557D21DF9FECF1A16 /* Request.swift */,
-				8BC3287DBCFA37BE99608E15009EAC6D /* RequestInterceptor.swift */,
-				4C28A8FD0389E6769D3294EE4E6D4749 /* RequestTaskMap.swift */,
-				E6CA163635FF9D40245678748B9BCD48 /* Response.swift */,
-				A23C4C3D4239800963373ADA7145BAF2 /* ResponseSerialization.swift */,
-				7CF58B645F5E8CA6094BB7FC074AD9A8 /* Result+Alamofire.swift */,
-				19F7543D08C04717E953AD49377466C1 /* RetryPolicy.swift */,
-				AC4513FA43D08A22FDCEECF13EDAF8ED /* ServerTrustEvaluation.swift */,
-				211BECECE2C4CF68E1AF55C65AB524A6 /* Session.swift */,
-				9A9370B46EDD8549ABC04B4E86F48E98 /* SessionDelegate.swift */,
-				0A477F1EEB6FF72E87E7152B67E9D9B0 /* StringEncoding+Alamofire.swift */,
-				200B7867EA6F2D8B7677EC0E94F77793 /* URLConvertible+URLRequestConvertible.swift */,
-				18162A54ED56D96DC93D54583F3FEF2C /* URLEncodedFormEncoder.swift */,
-				D504D5819D60440CAC4EE1704B1DA018 /* URLRequest+Alamofire.swift */,
-				D5F6C0F2DDC0416D621D44F26219008A /* URLSessionConfiguration+Alamofire.swift */,
-				93DF358E54D260EB7E1E71EA74D87814 /* Validation.swift */,
-				BCD1204392C253232B128677A0925E39 /* Support Files */,
-			);
-			name = Alamofire;
-			path = Alamofire;
-			sourceTree = "<group>";
-		};
-		BCD1204392C253232B128677A0925E39 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				ED4F25446AE36AE771A1D623658475CD /* Alamofire.modulemap */,
-				4F92C1B53AB726E90479757E383D4901 /* Alamofire-dummy.m */,
-				2A3DD00E7F39634E3B5D3E09D3E947A4 /* Alamofire-Info.plist */,
-				8D10DDA0BDF26489BA88792FB2C277C2 /* Alamofire-prefix.pch */,
-				9EAFE2C535B3BEC29DF99040617C2C1F /* Alamofire-umbrella.h */,
-				E305BFA4DDFE38B9FEB41EE1BF2426F8 /* Alamofire.debug.xcconfig */,
-				A4179FB5A8ADDE2FFD846DF04A8F1865 /* Alamofire.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Alamofire";
-			sourceTree = "<group>";
-		};
-		C2A31ED07EB8D8E64F7F5C80DEADE215 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				0034100F1137A6D41610D91329514A82 /* WKYTPlayerView.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		CC873E0945774B704DB0D2795DD4F18C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DD4B8EED841C005DB6824A918668BF68 /* KakaoSDKUser.modulemap */,
-				2E0A3F55488EB8088FE025486016E4C0 /* KakaoSDKUser-dummy.m */,
-				0743BB472F1DED25025B4F50BA875657 /* KakaoSDKUser-Info.plist */,
-				AD9E42E874C9760A9ECDEEAF06EC143E /* KakaoSDKUser-prefix.pch */,
-				BFF0F4886B9BF12DDAAAACD485647977 /* KakaoSDKUser-umbrella.h */,
-				73D696301F07A688A49DD82F4270F3AD /* KakaoSDKUser.debug.xcconfig */,
-				73C2FAB877D40A4CFCD5907FBC42F1BD /* KakaoSDKUser.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/KakaoSDKUser";
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				232B158554FBFAF5392F4B20E1324129 /* Pods */,
-				9D4D29056B54D1F35502A2675D8D530B /* Products */,
-				9E626B1053FF831255D077C7572A1949 /* Targets Support Files */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				310CD4264F273CF58E550372269B8F66 /* Products */,
+				053B5F6F643658523E5D903192C718BA /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		E2EB84305F2C20704A398BCF44C49BBD /* Support Files */ = {
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E0038915AA935FB7128F9EBB3AA0D272 /* KakaoSDKCommon.modulemap */,
-				6A3F07FE300F62433B4E7D81B6A70C45 /* KakaoSDKCommon-dummy.m */,
-				4DC1003569726D80613DB05368668F23 /* KakaoSDKCommon-Info.plist */,
-				4A2BB4639CFA236430BDEBB9F2AF33E8 /* KakaoSDKCommon-prefix.pch */,
-				7E65FEAE6BB09B653074F9294D54ABF7 /* KakaoSDKCommon-umbrella.h */,
-				37BCDC8F7788101A070B53C912C13869 /* KakaoSDKCommon.debug.xcconfig */,
-				13F955CEFCE8D3F159578E93126FBA12 /* KakaoSDKCommon.release.xcconfig */,
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/KakaoSDKCommon";
-			sourceTree = "<group>";
-		};
-		E330E4780B30F20122F296C0792AC9D8 /* YoutubePlayer-in-WKWebView */ = {
-			isa = PBXGroup;
-			children = (
-				33216EE8728DEF67A191A16BAD5AFD74 /* WKYTPlayerView.h */,
-				14B1C92BA55CA2367FEBC5FFA3D1C1A0 /* WKYTPlayerView.m */,
-				C2A31ED07EB8D8E64F7F5C80DEADE215 /* Resources */,
-				98528D9F7EA09C8B086C0BE9CB2F5900 /* Support Files */,
-			);
-			name = "YoutubePlayer-in-WKWebView";
-			path = "YoutubePlayer-in-WKWebView";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0D2ABDA9ABAAE09B2EC7D0F470DD5768 /* Headers */ = {
+		FA21D662A1D8ABAB0D29B8743DD96A66 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CDB105CCAA8B7863714A312A6E1AFCF /* KakaoSDKCommon-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		19969F94746642C5A48B9AFAE22AEAEA /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				43F4327D374B0A9699017A6A109EE4C0 /* KakaoSDKAuth.h in Headers */,
-				4BFE16DBDD7F6BF42E53AE3D5ADA7CC2 /* KakaoSDKAuth-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52E6F7B26483BE3BC9393C6C05D32424 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				005B319B494ED2DAA239B9939A504DFC /* Alamofire-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5802C3ADC6C8DD53FF074A2774C90E0F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B5C6D11992B89D0E4F6C0EB79F53483E /* Pods-Weather-Wear-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C6F0146424562AFD62835819309D0937 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9CD688E0B22F23B04F16E6A3EFC0D143 /* KakaoSDKUser.h in Headers */,
-				1DF563ACA1B087290224AA1BF3A523EB /* KakaoSDKUser-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C86DE08966523D11BCC4B225DE98BA91 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B89F1EC50FC5D758CC898A8F35070911 /* WKYTPlayerView.h in Headers */,
-				402315EA1CEFA79B44D5E5D42577DDC9 /* YoutubePlayer-in-WKWebView-umbrella.h in Headers */,
+				736A2918805B8C585E43A12A871A0F37 /* Pods-Weather-Wear-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		205D6EF1B8DCC8419E2F53266F6ADCDC /* KakaoSDKCommon */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C182209A158759F88D09478EAC16975D /* Build configuration list for PBXNativeTarget "KakaoSDKCommon" */;
-			buildPhases = (
-				0D2ABDA9ABAAE09B2EC7D0F470DD5768 /* Headers */,
-				757E1F077C5B3CFB318AD9C656A12678 /* Sources */,
-				DF06FB5FBF8B8292568BC9ABE6BD880A /* Frameworks */,
-				B9ABF16C7DFFCE2F483A6905E2C26D4E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				41FBEF504A434853D76DE8ABDBF76F16 /* PBXTargetDependency */,
-			);
-			name = KakaoSDKCommon;
-			productName = KakaoSDKCommon;
-			productReference = 25BDA6E824AD6CBD857358A023C694AD /* KakaoSDKCommon */;
-			productType = "com.apple.product-type.framework";
-		};
 		36C72E3FF756FE4850E96306D540C32A /* Pods-Weather-Wear */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 77C5A5DE56B0C74AD1D4E08BF64C5618 /* Build configuration list for PBXNativeTarget "Pods-Weather-Wear" */;
+			buildConfigurationList = B71F57C154713BAC44449ECB93FCC471 /* Build configuration list for PBXNativeTarget "Pods-Weather-Wear" */;
 			buildPhases = (
-				5802C3ADC6C8DD53FF074A2774C90E0F /* Headers */,
-				C6D2F88D8FA95DFA5B7AB96F54A75CEE /* Sources */,
-				C51312B196F921E81F563D591ED16E0C /* Frameworks */,
-				5D288692B7B24E5FEC99E385023203FA /* Resources */,
+				FA21D662A1D8ABAB0D29B8743DD96A66 /* Headers */,
+				65EC82FE325064D6D6179530EB3130DF /* Sources */,
+				9FC1EC2365AA26DDED17B3DACF125211 /* Frameworks */,
+				AB365944AA97B26622F5761AD8B30BB4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7980423A575D34DDF2BF40A698B0968E /* PBXTargetDependency */,
-				C092CFF3E68562EEE1319C3AB6C85F81 /* PBXTargetDependency */,
-				14DCD14D24867E887D4971ED85A8B259 /* PBXTargetDependency */,
-				998EADE85606AEFAE5772F2B4B5E3A1E /* PBXTargetDependency */,
-				C70B65440D7B47159020C65F63B386A6 /* PBXTargetDependency */,
 			);
 			name = "Pods-Weather-Wear";
 			productName = Pods_Weather_Wear;
-			productReference = 0662564489AB8353150493FE682DE616 /* Pods-Weather-Wear */;
-			productType = "com.apple.product-type.framework";
-		};
-		3F7BF367078951B6E8BC95B3DA89967A /* KakaoSDKUser */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A40DE0A760718B9975B30412381C4C69 /* Build configuration list for PBXNativeTarget "KakaoSDKUser" */;
-			buildPhases = (
-				C6F0146424562AFD62835819309D0937 /* Headers */,
-				411E9AFBFC2C1AD16CA1EB7103E4F5CB /* Sources */,
-				E3FEF2F2B5A59C3B7AECDF290252B96D /* Frameworks */,
-				D213ED1227320B086D9E80B15C44EB6F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				57250E1984DA9BF7766CC7B26E4BB9FC /* PBXTargetDependency */,
-			);
-			name = KakaoSDKUser;
-			productName = KakaoSDKUser;
-			productReference = 1353D6A467F43A6A3EA21D310BD35A31 /* KakaoSDKUser */;
-			productType = "com.apple.product-type.framework";
-		};
-		83CA882AD877ED964BDF66235E416BC1 /* KakaoSDKAuth */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 58120299DDEB007778C038F63BE4E98A /* Build configuration list for PBXNativeTarget "KakaoSDKAuth" */;
-			buildPhases = (
-				19969F94746642C5A48B9AFAE22AEAEA /* Headers */,
-				959AC68971E83F317BD735B3DA91D24E /* Sources */,
-				F4030BE72B57E5F3F5265100F26A7EE3 /* Frameworks */,
-				A784F964526D209F9F158D0C2326D99A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				805B0F502B3F18667AAF61F7D103A14D /* PBXTargetDependency */,
-			);
-			name = KakaoSDKAuth;
-			productName = KakaoSDKAuth;
-			productReference = 9F453801F27585052F413F613C847DB2 /* KakaoSDKAuth */;
-			productType = "com.apple.product-type.framework";
-		};
-		DABE3AD6EBA3822D4F04FBC550E7158D /* YoutubePlayer-in-WKWebView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 20B308635FBF791861ACAA1F38C24437 /* Build configuration list for PBXNativeTarget "YoutubePlayer-in-WKWebView" */;
-			buildPhases = (
-				C86DE08966523D11BCC4B225DE98BA91 /* Headers */,
-				65A2D72F98270D0BBB1C3C39583AF9DA /* Sources */,
-				910352DCC08667F7F5660928B8656471 /* Frameworks */,
-				1086E620F48539DF47DC4E57BF9FF942 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "YoutubePlayer-in-WKWebView";
-			productName = YoutubePlayer_in_WKWebView;
-			productReference = DE0FAB1DA724AB86C0E299518F5E580A /* YoutubePlayer-in-WKWebView */;
-			productType = "com.apple.product-type.framework";
-		};
-		EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8A212264186B8822192F9C369D7DE4BB /* Build configuration list for PBXNativeTarget "Alamofire" */;
-			buildPhases = (
-				52E6F7B26483BE3BC9393C6C05D32424 /* Headers */,
-				F5D2A45FBA06D86A537CB441D5BF4FF4 /* Sources */,
-				15DC142A7EE833251AA37FC8E2B8E01F /* Frameworks */,
-				E9D4145FA41F60FFAB33A07796D9ED97 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Alamofire;
-			productName = Alamofire;
-			productReference = 5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */;
+			productReference = 0662564489AB8353150493FE682DE616 /* Pods_Weather_Wear.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -840,58 +146,17 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 9D4D29056B54D1F35502A2675D8D530B /* Products */;
+			productRefGroup = 310CD4264F273CF58E550372269B8F66 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */,
-				83CA882AD877ED964BDF66235E416BC1 /* KakaoSDKAuth */,
-				205D6EF1B8DCC8419E2F53266F6ADCDC /* KakaoSDKCommon */,
-				3F7BF367078951B6E8BC95B3DA89967A /* KakaoSDKUser */,
 				36C72E3FF756FE4850E96306D540C32A /* Pods-Weather-Wear */,
-				DABE3AD6EBA3822D4F04FBC550E7158D /* YoutubePlayer-in-WKWebView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1086E620F48539DF47DC4E57BF9FF942 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B660C0CE51724B9FC919DAC5D6E5055A /* WKYTPlayerView.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5D288692B7B24E5FEC99E385023203FA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A784F964526D209F9F158D0C2326D99A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B9ABF16C7DFFCE2F483A6905E2C26D4E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D213ED1227320B086D9E80B15C44EB6F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E9D4145FA41F60FFAB33A07796D9ED97 /* Resources */ = {
+		AB365944AA97B26622F5761AD8B30BB4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -901,184 +166,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		411E9AFBFC2C1AD16CA1EB7103E4F5CB /* Sources */ = {
+		65EC82FE325064D6D6179530EB3130DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35CB81C6FE22A467D9C8417DD020B22D /* AccessTokenInfo.swift in Sources */,
-				1ADE9E4DA732DA450BCAEA3B7E887D0A /* KakaoSDKUser-dummy.m in Sources */,
-				C0BE8AF05D287A95988ED28EA9725AE5 /* Scope.swift in Sources */,
-				500ADBA9FBDBD6BBBB5D41D118DEFF78 /* User.swift in Sources */,
-				3ADF3240D321DDCDE0EC5E6AB28CBB4C /* UserApi.swift in Sources */,
-				8F3A0F86CECD995353288EEF1B87AB9B /* UserServiceTerms.swift in Sources */,
-				124DBC5F5C5E206054872B399D1FD5E1 /* UserShippingAddresses.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		65A2D72F98270D0BBB1C3C39583AF9DA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3FD0F97A448AC77D73DD645D06AF00AA /* WKYTPlayerView.m in Sources */,
-				A51DF1B66A0D993231E27FDC6ADCACC2 /* YoutubePlayer-in-WKWebView-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		757E1F077C5B3CFB318AD9C656A12678 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9242ADA5A585C56A45580092F487D8B0 /* Api.swift in Sources */,
-				A5DB49B760C2BA3BA9AB26BD31A20D12 /* ApiRequestAdapter.swift in Sources */,
-				F9433C726EA6B8E1D45960814E2749BA /* Array+Utils.swift in Sources */,
-				5494FEB5F00F4D627A1286E7A87205D7 /* AuthErrorInfo.swift in Sources */,
-				BDDE26EFFF0741F2986D4B1E969BCD34 /* Common.swift in Sources */,
-				8B5D0C28EBF08879C0CE9AF448520FA1 /* Data+Utils.swift in Sources */,
-				4030656DF5EC13BE69F9ECDB5F0207F1 /* Date+Utils.swift in Sources */,
-				A70FAEA747A946EC495E0F80E534DF88 /* DecodingContainer+AnyCollection.swift in Sources */,
-				7888C91C42E576F434B4B7AB704557AA /* Dictionary+Utils.swift in Sources */,
-				72186467C65BE057C455985447174C83 /* EncodingContainer+AnyCollection.swift in Sources */,
-				B10E694D719FF502192A844EE133D3B8 /* ErrorInfo.swift in Sources */,
-				565899BF7AC417A90EB06C3B5D711CD5 /* KakaoSDKCommon.swift in Sources */,
-				5E48D25DB5D26407096DECA1F6B99B33 /* KakaoSDKCommon-dummy.m in Sources */,
-				F97C82FD96BFFA976C986FA5CE2E62D1 /* Properties.swift in Sources */,
-				4101313E2BE9F73773023ED222A0F541 /* SdkCoder.swift in Sources */,
-				CA12388A0DA7E09355B3F2F3C9D7CD23 /* SdkCrypto.swift in Sources */,
-				C44A7E3B5D78DBB907373F514D1681F2 /* SdkError.swift in Sources */,
-				BBC0D3B20D5BDBDB60CF6E2B0F543734 /* SdkLog.swift in Sources */,
-				74042BC8A8844C9A904F45867B8A5511 /* SdkUtils.swift in Sources */,
-				553D8DBC64AD820211F7E8AEFD83272B /* UIApplication+Utils.swift in Sources */,
-				B186C28371510E2734F5EE66B5531FF7 /* URL+Utils.swift in Sources */,
-				EED5101CB4555DF89587088DEBB3B217 /* Urls.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		959AC68971E83F317BD735B3DA91D24E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DBF8D4F984A174E86E793BC9EADA05BD /* Auth.swift in Sources */,
-				4B9FAC8A735E154859A932A6CD3F8042 /* AuthApi.swift in Sources */,
-				F7B4F105CBB227C8CD017B28B7B9489D /* AuthController.swift in Sources */,
-				F520619BF52591C5F5B12F5939CF8C0A /* AuthRequestAdapter.swift in Sources */,
-				F430B25C4A965B0A10A88320253F8104 /* AuthRequestRetrier.swift in Sources */,
-				FE2BB468F7BFFF0BAEBD3F233D32F6F6 /* KakaoSDKAuth-dummy.m in Sources */,
-				DAE2CA48171B091F73721E6B529F25DD /* MigrateManager.swift in Sources */,
-				E0753C47C449A54BAE20F64B26E6FE2F /* OAuthToken.swift in Sources */,
-				61CEF4AE9EAE4FDEA123923CF826E32D /* TokenManagable.swift in Sources */,
-				5EA68DF825152B9219F20A023BDD4699 /* TokenManager.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C6D2F88D8FA95DFA5B7AB96F54A75CEE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CC22DCFEF4B1BB632BB445C6E1AC9D7A /* Pods-Weather-Wear-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F5D2A45FBA06D86A537CB441D5BF4FF4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D0EA90FBF83350C49E6EF6C8A98D6F00 /* AFError.swift in Sources */,
-				F17A4CA4664CABB331D39FE902E06843 /* Alamofire.swift in Sources */,
-				55AABB1FB38F61A3369ACC555FF3046D /* Alamofire-dummy.m in Sources */,
-				1EE44196E7BCE57AD96A2C751651EF40 /* AlamofireExtended.swift in Sources */,
-				7483E5327027263F7E4B94A2997191C4 /* AuthenticationInterceptor.swift in Sources */,
-				2CBE3651CA006E19F5D64A2DE9B9A028 /* CachedResponseHandler.swift in Sources */,
-				46A64A43AFA057B6B63C8F0C12F509B4 /* Combine.swift in Sources */,
-				9C9030DEDB0DF955B16FE08C50892D57 /* Concurrency.swift in Sources */,
-				EEC150B66BCCD6C80FDA7E4D1975166B /* DispatchQueue+Alamofire.swift in Sources */,
-				CEBFFEED65D877702B2F36102528CF6D /* EventMonitor.swift in Sources */,
-				7E02F5B62BE00E97847DF549FFED2490 /* HTTPHeaders.swift in Sources */,
-				D6B4751CED01D53E4A1B6A571AAA2F83 /* HTTPMethod.swift in Sources */,
-				7FE695DA8EE7FF1286556E06B692009B /* MultipartFormData.swift in Sources */,
-				E9B4C89E7EB3B27D46AFCA452C3D426F /* MultipartUpload.swift in Sources */,
-				A29100AA1876DDEFF6F54694A51FDB0E /* NetworkReachabilityManager.swift in Sources */,
-				2CCD13099063CD560E3067BD132914FA /* Notifications.swift in Sources */,
-				E54654D504A42C24F284A68F87F7671D /* OperationQueue+Alamofire.swift in Sources */,
-				99D058E53EFEE3AC4857CDE3DBA5C004 /* ParameterEncoder.swift in Sources */,
-				68FB2DCB4C77DBCAF9A6037E470F2BDE /* ParameterEncoding.swift in Sources */,
-				A53BDE589BDD6483F3EEDCE5EA1DCCD3 /* Protected.swift in Sources */,
-				045DE6EBF9B2F63F60F5BE60C1198E06 /* RedirectHandler.swift in Sources */,
-				B3658C29BBDE1033F6269A92E612CB30 /* Request.swift in Sources */,
-				DD902FE8D6824681C929D028655AE121 /* RequestInterceptor.swift in Sources */,
-				DA34899BEF0668D76CBCE8C4CE47B97B /* RequestTaskMap.swift in Sources */,
-				75966A9262648D4647D764E3E76BC6AC /* Response.swift in Sources */,
-				824D816B1EE404F2DD400EE678695CBE /* ResponseSerialization.swift in Sources */,
-				04A896288CE3A59B530250337A5F8362 /* Result+Alamofire.swift in Sources */,
-				33A7D0F2D03004CE256A75E03DF33C70 /* RetryPolicy.swift in Sources */,
-				B704B198B9B520D449260877E300D821 /* ServerTrustEvaluation.swift in Sources */,
-				81B8D2B7CEB25C2448B0BC9B33591A65 /* Session.swift in Sources */,
-				1976BB7D7E26A12E29283E71154B63B3 /* SessionDelegate.swift in Sources */,
-				7F1BB526AAE3ECDCE90127D9D0E10261 /* StringEncoding+Alamofire.swift in Sources */,
-				8D75FC8D7476C9674234F39F1A820D8C /* URLConvertible+URLRequestConvertible.swift in Sources */,
-				7930C94414B4C661867AC4FBE82E996C /* URLEncodedFormEncoder.swift in Sources */,
-				BC0ECA8F22DEDE8886E189CD0EAA1197 /* URLRequest+Alamofire.swift in Sources */,
-				808C960C82D708FC1A42C581D6CB4940 /* URLSessionConfiguration+Alamofire.swift in Sources */,
-				3C4059621E23842C19D4EB5D35B41989 /* Validation.swift in Sources */,
+				2CBBE0ACABA8717082EC7C3624C017CA /* Pods-Weather-Wear-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		14DCD14D24867E887D4971ED85A8B259 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = KakaoSDKCommon;
-			target = 205D6EF1B8DCC8419E2F53266F6ADCDC /* KakaoSDKCommon */;
-			targetProxy = A131441F745057638550BA320714899E /* PBXContainerItemProxy */;
-		};
-		41FBEF504A434853D76DE8ABDBF76F16 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Alamofire;
-			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
-			targetProxy = D38D10E462CDB83ABE2EC317353DC926 /* PBXContainerItemProxy */;
-		};
-		57250E1984DA9BF7766CC7B26E4BB9FC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = KakaoSDKAuth;
-			target = 83CA882AD877ED964BDF66235E416BC1 /* KakaoSDKAuth */;
-			targetProxy = 88B8B84D51013636738D7841DA64FEFA /* PBXContainerItemProxy */;
-		};
-		7980423A575D34DDF2BF40A698B0968E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Alamofire;
-			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
-			targetProxy = A8EED183A861C193F983D3E821CFA615 /* PBXContainerItemProxy */;
-		};
-		805B0F502B3F18667AAF61F7D103A14D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = KakaoSDKCommon;
-			target = 205D6EF1B8DCC8419E2F53266F6ADCDC /* KakaoSDKCommon */;
-			targetProxy = D6C5DF6D621494FCB8193DD4EEE27B73 /* PBXContainerItemProxy */;
-		};
-		998EADE85606AEFAE5772F2B4B5E3A1E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = KakaoSDKUser;
-			target = 3F7BF367078951B6E8BC95B3DA89967A /* KakaoSDKUser */;
-			targetProxy = 32C2524572E4A200C360BB01CA98C995 /* PBXContainerItemProxy */;
-		};
-		C092CFF3E68562EEE1319C3AB6C85F81 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = KakaoSDKAuth;
-			target = 83CA882AD877ED964BDF66235E416BC1 /* KakaoSDKAuth */;
-			targetProxy = EAA488C0A01FF4085806B389694DEBC6 /* PBXContainerItemProxy */;
-		};
-		C70B65440D7B47159020C65F63B386A6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "YoutubePlayer-in-WKWebView";
-			target = DABE3AD6EBA3822D4F04FBC550E7158D /* YoutubePlayer-in-WKWebView */;
-			targetProxy = 6CE545DEA88B3082A064BE1053875465 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		026E3BAA8480260E2A21F65FC13E275E /* Debug */ = {
+		2F2FEC69C20BADBD158CAC3F25406B7C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7176778271A25E9E0F481594853E994A /* Pods-Weather-Wear.debug.xcconfig */;
+			baseConfigurationReference = C048F20300B842F27688AB6EE0C43310 /* Pods-Weather-Wear.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1092,7 +193,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Weather-Wear/Pods-Weather-Wear-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1107,41 +208,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		10DBD572E54660C3642B2010998BB3CF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF5DBC0E3DE51241D2753383EB2F74B2 /* KakaoSDKAuth.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KakaoSDKAuth/KakaoSDKAuth-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KakaoSDKAuth/KakaoSDKAuth-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/KakaoSDKAuth/KakaoSDKAuth.modulemap";
-				PRODUCT_MODULE_NAME = KakaoSDKAuth;
-				PRODUCT_NAME = KakaoSDKAuth;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1210,291 +276,9 @@
 			};
 			name = Release;
 		};
-		880219FBBFBA4B703A46B5F770D59ADF /* Debug */ = {
+		6A82384674141E9C5E2C1609678FCC30 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E305BFA4DDFE38B9FEB41EE1BF2426F8 /* Alamofire.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
-				PRODUCT_MODULE_NAME = Alamofire;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		942CF7FB7544BFAB6B950D6E8988B558 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13F955CEFCE8D3F159578E93126FBA12 /* KakaoSDKCommon.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KakaoSDKCommon/KakaoSDKCommon-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KakaoSDKCommon/KakaoSDKCommon-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/KakaoSDKCommon/KakaoSDKCommon.modulemap";
-				PRODUCT_MODULE_NAME = KakaoSDKCommon;
-				PRODUCT_NAME = KakaoSDKCommon;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		98181CA478E33E5B574C02C5E5232CAA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73C2FAB877D40A4CFCD5907FBC42F1BD /* KakaoSDKUser.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KakaoSDKUser/KakaoSDKUser-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KakaoSDKUser/KakaoSDKUser-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/KakaoSDKUser/KakaoSDKUser.modulemap";
-				PRODUCT_MODULE_NAME = KakaoSDKUser;
-				PRODUCT_NAME = KakaoSDKUser;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		99CF42517F9FB9671A69245D2A5747FD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73D696301F07A688A49DD82F4270F3AD /* KakaoSDKUser.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KakaoSDKUser/KakaoSDKUser-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KakaoSDKUser/KakaoSDKUser-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/KakaoSDKUser/KakaoSDKUser.modulemap";
-				PRODUCT_MODULE_NAME = KakaoSDKUser;
-				PRODUCT_NAME = KakaoSDKUser;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B899C5F88D4C2859B9C9FEEDE62CF781 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 37BCDC8F7788101A070B53C912C13869 /* KakaoSDKCommon.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KakaoSDKCommon/KakaoSDKCommon-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KakaoSDKCommon/KakaoSDKCommon-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/KakaoSDKCommon/KakaoSDKCommon.modulemap";
-				PRODUCT_MODULE_NAME = KakaoSDKCommon;
-				PRODUCT_NAME = KakaoSDKCommon;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		BFAEF2F0FBCF37370766AAF959D06170 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FACF1FCAEF29A28A6DB36A33C8A10B31 /* YoutubePlayer-in-WKWebView.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YoutubePlayer-in-WKWebView/YoutubePlayer-in-WKWebView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YoutubePlayer-in-WKWebView/YoutubePlayer-in-WKWebView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/YoutubePlayer-in-WKWebView/YoutubePlayer-in-WKWebView.modulemap";
-				PRODUCT_MODULE_NAME = YoutubePlayer_in_WKWebView;
-				PRODUCT_NAME = YoutubePlayer_in_WKWebView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CAA003227865B6FFE3863A9D003CB4D4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C2CEE7AA46D154040D2411C22126840 /* YoutubePlayer-in-WKWebView.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YoutubePlayer-in-WKWebView/YoutubePlayer-in-WKWebView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YoutubePlayer-in-WKWebView/YoutubePlayer-in-WKWebView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/YoutubePlayer-in-WKWebView/YoutubePlayer-in-WKWebView.modulemap";
-				PRODUCT_MODULE_NAME = YoutubePlayer_in_WKWebView;
-				PRODUCT_NAME = YoutubePlayer_in_WKWebView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D86521288C966F7E6920A86F6D1F4BD0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 678E8241DC9582408380B10BD6A5762D /* KakaoSDKAuth.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KakaoSDKAuth/KakaoSDKAuth-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KakaoSDKAuth/KakaoSDKAuth-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/KakaoSDKAuth/KakaoSDKAuth.modulemap";
-				PRODUCT_MODULE_NAME = KakaoSDKAuth;
-				PRODUCT_NAME = KakaoSDKAuth;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E526E82B7816BC244970227FBCBCCDEE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C35D4844CA96B0BC87593FBD9F7DC7AE /* Pods-Weather-Wear.release.xcconfig */;
+			baseConfigurationReference = 42E7DC2E7596E8964806BC20DA019F6F /* Pods-Weather-Wear.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1508,7 +292,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Weather-Wear/Pods-Weather-Wear-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1596,54 +380,9 @@
 			};
 			name = Debug;
 		};
-		F95E4C330E939A7027D8A4E361545DBB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4179FB5A8ADDE2FFD846DF04A8F1865 /* Alamofire.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
-				PRODUCT_MODULE_NAME = Alamofire;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		20B308635FBF791861ACAA1F38C24437 /* Build configuration list for PBXNativeTarget "YoutubePlayer-in-WKWebView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BFAEF2F0FBCF37370766AAF959D06170 /* Debug */,
-				CAA003227865B6FFE3863A9D003CB4D4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1653,47 +392,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58120299DDEB007778C038F63BE4E98A /* Build configuration list for PBXNativeTarget "KakaoSDKAuth" */ = {
+		B71F57C154713BAC44449ECB93FCC471 /* Build configuration list for PBXNativeTarget "Pods-Weather-Wear" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				10DBD572E54660C3642B2010998BB3CF /* Debug */,
-				D86521288C966F7E6920A86F6D1F4BD0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		77C5A5DE56B0C74AD1D4E08BF64C5618 /* Build configuration list for PBXNativeTarget "Pods-Weather-Wear" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				026E3BAA8480260E2A21F65FC13E275E /* Debug */,
-				E526E82B7816BC244970227FBCBCCDEE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8A212264186B8822192F9C369D7DE4BB /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				880219FBBFBA4B703A46B5F770D59ADF /* Debug */,
-				F95E4C330E939A7027D8A4E361545DBB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A40DE0A760718B9975B30412381C4C69 /* Build configuration list for PBXNativeTarget "KakaoSDKUser" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				99CF42517F9FB9671A69245D2A5747FD /* Debug */,
-				98181CA478E33E5B574C02C5E5232CAA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C182209A158759F88D09478EAC16975D /* Build configuration list for PBXNativeTarget "KakaoSDKCommon" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B899C5F88D4C2859B9C9FEEDE62CF781 /* Debug */,
-				942CF7FB7544BFAB6B950D6E8988B558 /* Release */,
+				2F2FEC69C20BADBD158CAC3F25406B7C /* Debug */,
+				6A82384674141E9C5E2C1609678FCC30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
