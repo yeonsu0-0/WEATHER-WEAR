@@ -42,7 +42,6 @@
 		2FB61CE7297C260500C5092E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2FB61CE9297C260600C5092E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FB61CEC297C260600C5092E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2FB61CEE297C260600C5092E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FCE639C297D505A009DF514 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		2FCE639E297D5064009DF514 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		2FCED25D29804041000947D2 /* WatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchViewController.swift; sourceTree = "<group>"; };
@@ -112,7 +111,6 @@
 				2FB61CE6297C260500C5092E /* Main.storyboard */,
 				2FB61CE9297C260600C5092E /* Assets.xcassets */,
 				2FB61CEB297C260600C5092E /* LaunchScreen.storyboard */,
-				2FB61CEE297C260600C5092E /* Info.plist */,
 				2F7514C4297C391A00CF0733 /* TabBar.storyboard */,
 			);
 			path = "Weather-Wear";

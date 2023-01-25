@@ -42,13 +42,6 @@
                                     <constraint firstAttribute="width" secondItem="h8Q-ul-JVQ" secondAttribute="height" multiplier="16:9" id="o0W-b6-rzb"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="amg-yD-eb8" customClass="WKYTPlayerView">
-                                <rect key="frame" x="20" y="578.66666666666663" width="335" height="188.33333333333337"/>
-                                <color key="backgroundColor" systemColor="linkColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="amg-yD-eb8" secondAttribute="height" multiplier="16:9" id="qgz-6z-YPP"/>
-                                </constraints>
-                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A79-o7-gTB" customClass="WKYTPlayerView">
                                 <rect key="frame" x="20" y="161.66666666666663" width="335" height="188.33333333333337"/>
                                 <color key="backgroundColor" systemColor="linkColor"/>
@@ -63,29 +56,25 @@
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="h8Q-ul-JVQ" secondAttribute="trailing" constant="20" id="Dg4-ws-iH7"/>
                             <constraint firstItem="qtp-8g-OK9" firstAttribute="leading" secondItem="0ky-rV-77v" secondAttribute="trailing" constant="8" id="ESQ-j1-fpF"/>
                             <constraint firstItem="h8Q-ul-JVQ" firstAttribute="top" secondItem="A79-o7-gTB" secondAttribute="bottom" constant="20" id="ML8-hB-yF1"/>
-                            <constraint firstItem="amg-yD-eb8" firstAttribute="top" secondItem="h8Q-ul-JVQ" secondAttribute="bottom" constant="20" id="MjO-dp-x8E"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="A79-o7-gTB" secondAttribute="trailing" constant="20" id="RYB-y9-yTT"/>
                             <constraint firstItem="2rH-FB-8PZ" firstAttribute="top" secondItem="qtp-8g-OK9" secondAttribute="bottom" constant="36" id="Rlv-FA-Tak"/>
                             <constraint firstItem="0ky-rV-77v" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="UTD-in-1Pn"/>
                             <constraint firstItem="A79-o7-gTB" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="bCN-aW-m04"/>
-                            <constraint firstItem="amg-yD-eb8" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="fRj-LM-ryT"/>
                             <constraint firstItem="0ky-rV-77v" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="8" id="gis-Rg-TVr"/>
                             <constraint firstItem="A79-o7-gTB" firstAttribute="top" secondItem="2rH-FB-8PZ" secondAttribute="bottom" constant="24" id="hoI-oB-yW5"/>
                             <constraint firstItem="h8Q-ul-JVQ" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="jaf-nF-CNh"/>
                             <constraint firstItem="qtp-8g-OK9" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="8" id="oDR-LF-Qm0"/>
                             <constraint firstItem="2rH-FB-8PZ" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="rXM-1s-Tum"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="amg-yD-eb8" secondAttribute="trailing" constant="20" id="y2i-Zw-EhS"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="playerView" destination="A79-o7-gTB" id="ATw-LO-8rQ"/>
                         <outlet property="playerView2" destination="h8Q-ul-JVQ" id="trA-f7-cHf"/>
-                        <outlet property="playerView3" destination="amg-yD-eb8" id="JGA-rP-W57"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="132" y="-34"/>
+            <point key="canvasLocation" x="132" y="-34.729064039408868"/>
         </scene>
     </scenes>
     <resources>
