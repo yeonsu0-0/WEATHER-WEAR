@@ -17,8 +17,14 @@
 		2FB61CEA297C260600C5092E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61CE9297C260600C5092E /* Assets.xcassets */; };
 		2FB61CED297C260600C5092E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FB61CEB297C260600C5092E /* LaunchScreen.storyboard */; };
 		501FCCFF356F1948B0DB0763 /* Pods_Weather_Wear.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69D4138E799B95E932C5B144 /* Pods_Weather_Wear.framework */; };
+		DB4BA6DA29801092007E608B /* SpoqaHanSansNeo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB4BA6D529801091007E608B /* SpoqaHanSansNeo-Regular.ttf */; };
+		DB4BA6DB29801092007E608B /* SpoqaHanSansNeo-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB4BA6D629801091007E608B /* SpoqaHanSansNeo-Thin.ttf */; };
+		DB4BA6DC29801092007E608B /* SpoqaHanSansNeo-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB4BA6D729801091007E608B /* SpoqaHanSansNeo-Medium.ttf */; };
+		DB4BA6DD29801092007E608B /* SpoqaHanSansNeo-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB4BA6D829801091007E608B /* SpoqaHanSansNeo-Light.ttf */; };
+		DB4BA6DE29801092007E608B /* SpoqaHanSansNeo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB4BA6D929801092007E608B /* SpoqaHanSansNeo-Bold.ttf */; };
 		DBF94FFA297D5FF300F9A777 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF94FF9297D5FF300F9A777 /* HomeViewController.swift */; };
 		DBF94FFC297D600600F9A777 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBF94FFB297D600600F9A777 /* Home.storyboard */; };
+		DBFFB3512980071900E81E4D /* HomeWeatherInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFFB3502980071900E81E4D /* HomeWeatherInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +41,14 @@
 		2FB61CEE297C260600C5092E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69D4138E799B95E932C5B144 /* Pods_Weather_Wear.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Weather_Wear.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACC1B18FFA9F17FDF2E19BB3 /* Pods-Weather-Wear.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weather-Wear.release.xcconfig"; path = "Target Support Files/Pods-Weather-Wear/Pods-Weather-Wear.release.xcconfig"; sourceTree = "<group>"; };
+		DB4BA6D529801091007E608B /* SpoqaHanSansNeo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpoqaHanSansNeo-Regular.ttf"; sourceTree = "<group>"; };
+		DB4BA6D629801091007E608B /* SpoqaHanSansNeo-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpoqaHanSansNeo-Thin.ttf"; sourceTree = "<group>"; };
+		DB4BA6D729801091007E608B /* SpoqaHanSansNeo-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpoqaHanSansNeo-Medium.ttf"; sourceTree = "<group>"; };
+		DB4BA6D829801091007E608B /* SpoqaHanSansNeo-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpoqaHanSansNeo-Light.ttf"; sourceTree = "<group>"; };
+		DB4BA6D929801092007E608B /* SpoqaHanSansNeo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpoqaHanSansNeo-Bold.ttf"; sourceTree = "<group>"; };
 		DBF94FF9297D5FF300F9A777 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DBF94FFB297D600600F9A777 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		DBFFB3502980071900E81E4D /* HomeWeatherInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWeatherInfo.swift; sourceTree = "<group>"; };
 		F3FA15FE215FA167DC398DBB /* Pods-Weather-Wear.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weather-Wear.debug.xcconfig"; path = "Target Support Files/Pods-Weather-Wear/Pods-Weather-Wear.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,8 +128,14 @@
 		DBF94FF8297D5FC700F9A777 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				DBF94FF9297D5FF300F9A777 /* HomeViewController.swift */,
 				DBF94FFB297D600600F9A777 /* Home.storyboard */,
+				DBF94FF9297D5FF300F9A777 /* HomeViewController.swift */,
+				DBFFB3502980071900E81E4D /* HomeWeatherInfo.swift */,
+				DB4BA6D929801092007E608B /* SpoqaHanSansNeo-Bold.ttf */,
+				DB4BA6D829801091007E608B /* SpoqaHanSansNeo-Light.ttf */,
+				DB4BA6D729801091007E608B /* SpoqaHanSansNeo-Medium.ttf */,
+				DB4BA6D529801091007E608B /* SpoqaHanSansNeo-Regular.ttf */,
+				DB4BA6D629801091007E608B /* SpoqaHanSansNeo-Thin.ttf */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -181,11 +199,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB4BA6DD29801092007E608B /* SpoqaHanSansNeo-Light.ttf in Resources */,
 				2F7514C5297C391A00CF0733 /* TabBar.storyboard in Resources */,
+				DB4BA6DA29801092007E608B /* SpoqaHanSansNeo-Regular.ttf in Resources */,
 				2F7514CA297C3F4400CF0733 /* MyPage.storyboard in Resources */,
+				DB4BA6DC29801092007E608B /* SpoqaHanSansNeo-Medium.ttf in Resources */,
 				2FB61CED297C260600C5092E /* LaunchScreen.storyboard in Resources */,
+				DB4BA6DE29801092007E608B /* SpoqaHanSansNeo-Bold.ttf in Resources */,
 				DBF94FFC297D600600F9A777 /* Home.storyboard in Resources */,
 				2FB61CEA297C260600C5092E /* Assets.xcassets in Resources */,
+				DB4BA6DB29801092007E608B /* SpoqaHanSansNeo-Thin.ttf in Resources */,
 				2FB61CE8297C260500C5092E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,6 +248,7 @@
 				DBF94FFA297D5FF300F9A777 /* HomeViewController.swift in Sources */,
 				2FB61CE5297C260500C5092E /* ViewController.swift in Sources */,
 				2FB61CE1297C260500C5092E /* AppDelegate.swift in Sources */,
+				DBFFB3512980071900E81E4D /* HomeWeatherInfo.swift in Sources */,
 				2FB61CE3297C260500C5092E /* SceneDelegate.swift in Sources */,
 				2F7514C8297C3EE000CF0733 /* MyPageViewController.swift in Sources */,
 			);
