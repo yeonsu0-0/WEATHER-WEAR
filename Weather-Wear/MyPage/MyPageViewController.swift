@@ -19,6 +19,11 @@ class MyPageViewController:UIViewController {
             }
             else {
                 print("logout() success.")
+                let viewController = UIStoryboard(name: "Login", bundle: nil)
+                    .instantiateViewController(withIdentifier: "LoginVC")
+                
+                guard let nextVC = viewController.storyboard?.instantiateViewController(withIdentifier: "LoginVC") as? LoginViewController else { return }
+                self.navigationController?.pushViewController(nextVC, animated: true)
             }
         }
     }

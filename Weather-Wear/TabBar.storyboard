@@ -32,10 +32,9 @@
         <!--Navigation Controller-->
         <scene sceneID="7LC-Sp-zR5">
             <objects>
-                <navigationController id="c4E-5O-WnK" sceneMemberID="viewController">
+                <navigationController navigationBarHidden="YES" id="c4E-5O-WnK" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="" image="home_inactive" id="qCF-S4-4gL"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Lez-YW-WnD">
-                        <rect key="frame" x="0.0" y="50" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -59,10 +58,9 @@
         <!--Navigation Controller-->
         <scene sceneID="3fz-z2-iNS">
             <objects>
-                <navigationController id="OOV-af-hfh" sceneMemberID="viewController">
+                <navigationController navigationBarHidden="YES" id="OOV-af-hfh" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="" image="feed_inactive" id="rh1-4B-seg"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Yre-99-W26">
-                        <rect key="frame" x="0.0" y="50" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                 </navigationController>
@@ -73,10 +71,9 @@
         <!--Navigation Controller-->
         <scene sceneID="1VW-9o-flt">
             <objects>
-                <navigationController id="V2g-RR-S8d" sceneMemberID="viewController">
+                <navigationController navigationBarHidden="YES" id="V2g-RR-S8d" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="" image="watch_inactive" id="6Sa-tN-ylh"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="1cu-ze-Tqx">
-                        <rect key="frame" x="0.0" y="50" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -100,10 +97,9 @@
         <!--Navigation Controller-->
         <scene sceneID="qfH-yK-gB3">
             <objects>
-                <navigationController id="4b4-r1-wxF" sceneMemberID="viewController">
+                <navigationController navigationBarHidden="YES" id="4b4-r1-wxF" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="" image="my_inactive" id="54i-dk-RhF"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="QsC-Bs-yvr">
-                        <rect key="frame" x="0.0" y="50" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
