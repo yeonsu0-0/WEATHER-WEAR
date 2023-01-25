@@ -63,10 +63,23 @@
                         <rect key="frame" x="0.0" y="50" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
+                    <connections>
+                        <segue destination="zPf-Id-0Jp" kind="relationship" relationship="rootViewController" id="wTS-uz-MMg"/>
+                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EzK-Pa-d3V" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2439" y="141"/>
+        </scene>
+        <!--watchVC-->
+        <scene sceneID="3TB-dC-ZBh">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Watch" referencedIdentifier="watchVC" id="zPf-Id-0Jp" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="kzR-Ac-fW8"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ItZ-0f-hkF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3134" y="140"/>
         </scene>
         <!--마이페이지-->
         <scene sceneID="qfH-yK-gB3">
