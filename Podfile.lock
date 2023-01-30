@@ -1,5 +1,6 @@
 PODS:
   - Alamofire (5.6.4)
+  - Gifu (3.3.1)
   - KakaoSDKAuth (2.11.3):
     - KakaoSDKCommon (= 2.11.3)
   - KakaoSDKCommon (2.11.3):
@@ -14,6 +15,7 @@ PODS:
   - YoutubePlayer-in-WKWebView (0.3.8)
 
 DEPENDENCIES:
+  - Gifu
   - KakaoSDKAuth
   - KakaoSDKCommon
   - KakaoSDKUser
@@ -22,6 +24,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Alamofire
+    - Gifu
     - KakaoSDKAuth
     - KakaoSDKCommon
     - KakaoSDKUser
@@ -29,11 +32,12 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  Gifu: 416d4e38c4c2fed012f019e0a1d3ffcb58e5b842
   KakaoSDKAuth: a64dde90516e18fdfc35b83bbad2677c3675c329
   KakaoSDKCommon: b4235203f67a5b6ee2df75eaf9bbc863c6d92e09
   KakaoSDKUser: 9a42e9b74855ce876b071c841418aa6726534010
   YoutubePlayer-in-WKWebView: 4fca3b4f6f09940077bfbae7bddb771f2b43aacd
 
-PODFILE CHECKSUM: b32bb4751713b2cbcf3ae22ac957532d015df670
+PODFILE CHECKSUM: 9c4f662d91a74d9dae7a731cd2ebd936220386c6
 
 COCOAPODS: 1.11.3
