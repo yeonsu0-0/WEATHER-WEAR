@@ -140,6 +140,10 @@
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="w3a-40-vgs" secondAttribute="trailing" constant="46" id="xqO-pO-myp"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="userId" destination="MTq-2L-2mx" id="dYK-kB-XWN"/>
+                        <outlet property="userName" destination="8kh-yy-ETs" id="e6E-iQ-88R"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

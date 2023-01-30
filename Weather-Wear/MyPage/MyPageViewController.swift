@@ -12,6 +12,25 @@ import KakaoSDKAuth
 
 class MyPageViewController:UIViewController {
     
+    @IBOutlet weak var userName: UILabel!
+    @IBOutlet weak var userId: UILabel!
+    
+    func setUserInfo() {
+        UserApi.shared.me {(user, error) in
+            if let error = error {
+                print(error)
+            } else {
+                print("nickname: \(user?.kakaoAccount?.profile?.nickname ?? "no nickname")")
+                print("email: \(user?.kakaoAccount?.email ?? "no email")")
+                
+                guard let userId = user?.id else {return}
+                self.userName.text = "\(user?.kakaoAccount?.profile?.nickname ?? "no nickname")"
+                self.userId.text = "\(user?.kakaoAccount?.email ?? "no nickname")"
+            }
+        }
+    }
+    
+    // ================ < 로그아웃 > ================
     @IBAction func logoutButton(_ sender: Any) {
         UserApi.shared.logout {(error) in
             if let error = error {
@@ -24,6 +43,7 @@ class MyPageViewController:UIViewController {
                 
                 guard let nextVC = viewController.storyboard?.instantiateViewController(withIdentifier: "LoginVC") as? LoginViewController else { return }
                 self.navigationController?.pushViewController(nextVC, animated: true)
+                self.tabBarController?.tabBar.isHidden = true
             }
         }
     }
@@ -31,6 +51,6 @@ class MyPageViewController:UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        setUserInfo()
     }
 }
