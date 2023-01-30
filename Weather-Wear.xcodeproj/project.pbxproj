@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F4D58AF2980D70A003E1BC0 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4D58AE2980D70A003E1BC0 /* TabBarViewController.swift */; };
 		2F7514C5297C391A00CF0733 /* TabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F7514C4297C391A00CF0733 /* TabBar.storyboard */; };
 		2F7514C8297C3EE000CF0733 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7514C7297C3EE000CF0733 /* MyPageViewController.swift */; };
 		2F7514CA297C3F4400CF0733 /* MyPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F7514C9297C3F4400CF0733 /* MyPage.storyboard */; };
@@ -45,6 +46,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F4D58AE2980D70A003E1BC0 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		2F7514C4297C391A00CF0733 /* TabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBar.storyboard; sourceTree = "<group>"; };
 		2F7514C7297C3EE000CF0733 /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
 		2F7514C9297C3F4400CF0733 /* MyPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyPage.storyboard; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				2FB61CE9297C260600C5092E /* Assets.xcassets */,
 				2FB61CEB297C260600C5092E /* LaunchScreen.storyboard */,
 				2F7514C4297C391A00CF0733 /* TabBar.storyboard */,
+				2F4D58AE2980D70A003E1BC0 /* TabBarViewController.swift */,
 			);
 			path = "Weather-Wear";
 			sourceTree = "<group>";
@@ -353,6 +356,8 @@
 				DBFFB3512980071900E81E4D /* HomeWeatherInfo.swift in Sources */,
 				DBC79CB92986AEDB00CE69ED /* MyClosetViewController.swift in Sources */,
 				DBC79CC12986B0B100CE69ED /* MyClosetPhotoAuth.swift in Sources */,
+				2F4D58AF2980D70A003E1BC0 /* TabBarViewController.swift in Sources */,
+				DBC076172980EA8200729178 /* HomeWearInfo.swift in Sources */,
 				2FB61CE3297C260500C5092E /* SceneDelegate.swift in Sources */,
 				2FCE639D297D505A009DF514 /* LoginViewController.swift in Sources */,
 				DB32D57A2982E735002F586F /* HomeWearInfo3.swift in Sources */,
