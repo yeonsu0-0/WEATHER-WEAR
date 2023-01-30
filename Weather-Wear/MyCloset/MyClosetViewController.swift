@@ -15,6 +15,7 @@ class MyClosetViewController: UIViewController, CLLocationManagerDelegate & UINa
         // Do any additional setup after loading the view.
         
         self.tabBarController?.tabBar.isHidden = false
+        self.tabBarController?.tabBar.backgroundColor = .white
         
         
         designVector()
