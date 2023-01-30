@@ -154,13 +154,11 @@ class HomeViewController: UIViewController, CLLocationManagerDelegate {
         let coor = locationManager.location?.coordinate
         latitude = coor?.latitude
         
-        /*
         // info.list에 Privacy-Location 어쩌구 추가한 후에 동작
         // latitude 값을 String으로 변환
         let str_lat: String = String(format: "%f", latitude!)
-         */
         
-        let str_lat = "37.541"
+        //let str_lat = "37.541"
         
         return str_lat
     }
@@ -187,13 +185,11 @@ class HomeViewController: UIViewController, CLLocationManagerDelegate {
         let coor = locationManager.location?.coordinate
         longitude = coor?.longitude
         
-        /*
         // info.list에 Privacy-Location 어쩌구 추가한 후에 동작
         // longtitude 값을 String으로 변환
         let str_lon: String = String(format: "%f", longitude!)
-         */
         
-        let str_lon = "126.986"
+        //let str_lon = "126.986"
         
         return str_lon
     }
