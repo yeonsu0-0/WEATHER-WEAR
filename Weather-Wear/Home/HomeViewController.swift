@@ -1111,7 +1111,7 @@ class HomeViewController: UIViewController, CLLocationManagerDelegate {
         var currentTemp = 0
     
         if let weather = weatherInfo.weather.first {
-            weatherName = weather.description // 현재 날씨
+            weatherName = weather.description
             currentTemp = Int(weatherInfo.temp.temp - 273.15) // 현재 온도
         }
         
