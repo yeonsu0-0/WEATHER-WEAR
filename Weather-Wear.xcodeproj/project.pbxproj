@@ -21,12 +21,24 @@
 		2FCED25E29804041000947D2 /* WatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCED25D29804041000947D2 /* WatchViewController.swift */; };
 		2FCED2602980404F000947D2 /* Watch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FCED25F2980404F000947D2 /* Watch.storyboard */; };
 		501FCCFF356F1948B0DB0763 /* Pods_Weather_Wear.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69D4138E799B95E932C5B144 /* Pods_Weather_Wear.framework */; };
+		DB32D5762982E71D002F586F /* HomeWearInfo1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB32D5752982E71D002F586F /* HomeWearInfo1.swift */; };
+		DB32D5782982E72A002F586F /* HomeWearInfo2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB32D5772982E72A002F586F /* HomeWearInfo2.swift */; };
+		DB32D57A2982E735002F586F /* HomeWearInfo3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB32D5792982E735002F586F /* HomeWearInfo3.swift */; };
 		DB4BA6DA29801092007E608B /* SpoqaHanSansNeo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB4BA6D529801091007E608B /* SpoqaHanSansNeo-Regular.ttf */; };
 		DB4BA6DB29801092007E608B /* SpoqaHanSansNeo-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB4BA6D629801091007E608B /* SpoqaHanSansNeo-Thin.ttf */; };
 		DB4BA6DC29801092007E608B /* SpoqaHanSansNeo-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB4BA6D729801091007E608B /* SpoqaHanSansNeo-Medium.ttf */; };
 		DB4BA6DD29801092007E608B /* SpoqaHanSansNeo-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB4BA6D829801091007E608B /* SpoqaHanSansNeo-Light.ttf */; };
 		DB4BA6DE29801092007E608B /* SpoqaHanSansNeo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB4BA6D929801092007E608B /* SpoqaHanSansNeo-Bold.ttf */; };
-		DBC076172980EA8200729178 /* HomeWearInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC076162980EA8200729178 /* HomeWearInfo.swift */; };
+		DBC79CB92986AEDB00CE69ED /* MyClosetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC79CB82986AEDB00CE69ED /* MyClosetViewController.swift */; };
+		DBC79CBB2986AEF400CE69ED /* MyCloset.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBC79CBA2986AEF400CE69ED /* MyCloset.storyboard */; };
+		DBC79CBD2986B07F00CE69ED /* MyClosetImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC79CBC2986B07F00CE69ED /* MyClosetImageCell.swift */; };
+		DBC79CBF2986B09800CE69ED /* MyClosetWeatherInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC79CBE2986B09800CE69ED /* MyClosetWeatherInfo.swift */; };
+		DBC79CC12986B0B100CE69ED /* MyClosetPhotoAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC79CC02986B0B100CE69ED /* MyClosetPhotoAuth.swift */; };
+		DBC79CC32986B0CA00CE69ED /* MyClosetSimpleAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC79CC22986B0CA00CE69ED /* MyClosetSimpleAlert.swift */; };
+		DBC79CC52986B2E400CE69ED /* MyClosetEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC79CC42986B2E400CE69ED /* MyClosetEditViewController.swift */; };
+		DBCEEF092983C21A003E5CC1 /* GURUMI_sun.gif in Resources */ = {isa = PBXBuildFile; fileRef = DBCEEF062983C21A003E5CC1 /* GURUMI_sun.gif */; };
+		DBCEEF0A2983C21A003E5CC1 /* GURUMI_thunder.gif in Resources */ = {isa = PBXBuildFile; fileRef = DBCEEF072983C21A003E5CC1 /* GURUMI_thunder.gif */; };
+		DBCEEF0B2983C21A003E5CC1 /* GURUMI_rain.gif in Resources */ = {isa = PBXBuildFile; fileRef = DBCEEF082983C21A003E5CC1 /* GURUMI_rain.gif */; };
 		DBF94FFA297D5FF300F9A777 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF94FF9297D5FF300F9A777 /* HomeViewController.swift */; };
 		DBF94FFC297D600600F9A777 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBF94FFB297D600600F9A777 /* Home.storyboard */; };
 		DBFFB3512980071900E81E4D /* HomeWeatherInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFFB3502980071900E81E4D /* HomeWeatherInfo.swift */; };
@@ -49,12 +61,24 @@
 		2FCED25F2980404F000947D2 /* Watch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Watch.storyboard; sourceTree = "<group>"; };
 		69D4138E799B95E932C5B144 /* Pods_Weather_Wear.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Weather_Wear.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACC1B18FFA9F17FDF2E19BB3 /* Pods-Weather-Wear.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weather-Wear.release.xcconfig"; path = "Target Support Files/Pods-Weather-Wear/Pods-Weather-Wear.release.xcconfig"; sourceTree = "<group>"; };
+		DB32D5752982E71D002F586F /* HomeWearInfo1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWearInfo1.swift; sourceTree = "<group>"; };
+		DB32D5772982E72A002F586F /* HomeWearInfo2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWearInfo2.swift; sourceTree = "<group>"; };
+		DB32D5792982E735002F586F /* HomeWearInfo3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWearInfo3.swift; sourceTree = "<group>"; };
 		DB4BA6D529801091007E608B /* SpoqaHanSansNeo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpoqaHanSansNeo-Regular.ttf"; sourceTree = "<group>"; };
 		DB4BA6D629801091007E608B /* SpoqaHanSansNeo-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpoqaHanSansNeo-Thin.ttf"; sourceTree = "<group>"; };
 		DB4BA6D729801091007E608B /* SpoqaHanSansNeo-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpoqaHanSansNeo-Medium.ttf"; sourceTree = "<group>"; };
 		DB4BA6D829801091007E608B /* SpoqaHanSansNeo-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpoqaHanSansNeo-Light.ttf"; sourceTree = "<group>"; };
 		DB4BA6D929801092007E608B /* SpoqaHanSansNeo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpoqaHanSansNeo-Bold.ttf"; sourceTree = "<group>"; };
-		DBC076162980EA8200729178 /* HomeWearInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWearInfo.swift; sourceTree = "<group>"; };
+		DBC79CB82986AEDB00CE69ED /* MyClosetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyClosetViewController.swift; sourceTree = "<group>"; };
+		DBC79CBA2986AEF400CE69ED /* MyCloset.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyCloset.storyboard; sourceTree = "<group>"; };
+		DBC79CBC2986B07F00CE69ED /* MyClosetImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyClosetImageCell.swift; sourceTree = "<group>"; };
+		DBC79CBE2986B09800CE69ED /* MyClosetWeatherInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyClosetWeatherInfo.swift; sourceTree = "<group>"; };
+		DBC79CC02986B0B100CE69ED /* MyClosetPhotoAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyClosetPhotoAuth.swift; sourceTree = "<group>"; };
+		DBC79CC22986B0CA00CE69ED /* MyClosetSimpleAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyClosetSimpleAlert.swift; sourceTree = "<group>"; };
+		DBC79CC42986B2E400CE69ED /* MyClosetEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyClosetEditViewController.swift; sourceTree = "<group>"; };
+		DBCEEF062983C21A003E5CC1 /* GURUMI_sun.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = GURUMI_sun.gif; sourceTree = "<group>"; };
+		DBCEEF072983C21A003E5CC1 /* GURUMI_thunder.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = GURUMI_thunder.gif; sourceTree = "<group>"; };
+		DBCEEF082983C21A003E5CC1 /* GURUMI_rain.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = GURUMI_rain.gif; sourceTree = "<group>"; };
 		DBF94FF9297D5FF300F9A777 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DBF94FFB297D600600F9A777 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		DBFFB3502980071900E81E4D /* HomeWeatherInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWeatherInfo.swift; sourceTree = "<group>"; };
@@ -103,6 +127,7 @@
 		2FB61CDF297C260500C5092E /* Weather-Wear */ = {
 			isa = PBXGroup;
 			children = (
+				DBC79CB72986AEA300CE69ED /* MyCloset */,
 				DBF94FF8297D5FC700F9A777 /* Home */,
 				2FCED25C29804026000947D2 /* Watch */,
 				2FCE639B297D502B009DF514 /* Login */,
@@ -153,13 +178,32 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DBC79CB72986AEA300CE69ED /* MyCloset */ = {
+			isa = PBXGroup;
+			children = (
+				DBC79CB82986AEDB00CE69ED /* MyClosetViewController.swift */,
+				DBC79CC42986B2E400CE69ED /* MyClosetEditViewController.swift */,
+				DBC79CBA2986AEF400CE69ED /* MyCloset.storyboard */,
+				DBC79CBC2986B07F00CE69ED /* MyClosetImageCell.swift */,
+				DBC79CBE2986B09800CE69ED /* MyClosetWeatherInfo.swift */,
+				DBC79CC02986B0B100CE69ED /* MyClosetPhotoAuth.swift */,
+				DBC79CC22986B0CA00CE69ED /* MyClosetSimpleAlert.swift */,
+			);
+			path = MyCloset;
+			sourceTree = "<group>";
+		};
 		DBF94FF8297D5FC700F9A777 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				DBCEEF082983C21A003E5CC1 /* GURUMI_rain.gif */,
+				DBCEEF062983C21A003E5CC1 /* GURUMI_sun.gif */,
+				DBCEEF072983C21A003E5CC1 /* GURUMI_thunder.gif */,
 				DBF94FFB297D600600F9A777 /* Home.storyboard */,
 				DBF94FF9297D5FF300F9A777 /* HomeViewController.swift */,
 				DBFFB3502980071900E81E4D /* HomeWeatherInfo.swift */,
-				DBC076162980EA8200729178 /* HomeWearInfo.swift */,
+				DB32D5752982E71D002F586F /* HomeWearInfo1.swift */,
+				DB32D5772982E72A002F586F /* HomeWearInfo2.swift */,
+				DB32D5792982E735002F586F /* HomeWearInfo3.swift */,
 				DB4BA6D929801092007E608B /* SpoqaHanSansNeo-Bold.ttf */,
 				DB4BA6D829801091007E608B /* SpoqaHanSansNeo-Light.ttf */,
 				DB4BA6D729801091007E608B /* SpoqaHanSansNeo-Medium.ttf */,
@@ -229,9 +273,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBCEEF0A2983C21A003E5CC1 /* GURUMI_thunder.gif in Resources */,
 				DB4BA6DD29801092007E608B /* SpoqaHanSansNeo-Light.ttf in Resources */,
 				2F7514C5297C391A00CF0733 /* TabBar.storyboard in Resources */,
+				DBCEEF092983C21A003E5CC1 /* GURUMI_sun.gif in Resources */,
 				DB4BA6DA29801092007E608B /* SpoqaHanSansNeo-Regular.ttf in Resources */,
+				DBCEEF0B2983C21A003E5CC1 /* GURUMI_rain.gif in Resources */,
 				2F7514CA297C3F4400CF0733 /* MyPage.storyboard in Resources */,
 				DB4BA6DC29801092007E608B /* SpoqaHanSansNeo-Medium.ttf in Resources */,
 				2FCE639F297D5064009DF514 /* Login.storyboard in Resources */,
@@ -239,6 +286,7 @@
 				DB4BA6DE29801092007E608B /* SpoqaHanSansNeo-Bold.ttf in Resources */,
 				DBF94FFC297D600600F9A777 /* Home.storyboard in Resources */,
 				2FB61CEA297C260600C5092E /* Assets.xcassets in Resources */,
+				DBC79CBB2986AEF400CE69ED /* MyCloset.storyboard in Resources */,
 				DB4BA6DB29801092007E608B /* SpoqaHanSansNeo-Thin.ttf in Resources */,
 				2FB61CE8297C260500C5092E /* Main.storyboard in Resources */,
 				2FCED2602980404F000947D2 /* Watch.storyboard in Resources */,
@@ -294,14 +342,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBC79CBD2986B07F00CE69ED /* MyClosetImageCell.swift in Sources */,
 				DBF94FFA297D5FF300F9A777 /* HomeViewController.swift in Sources */,
+				DB32D5762982E71D002F586F /* HomeWearInfo1.swift in Sources */,
+				DB32D5782982E72A002F586F /* HomeWearInfo2.swift in Sources */,
 				2FB61CE5297C260500C5092E /* ViewController.swift in Sources */,
 				2FB61CE1297C260500C5092E /* AppDelegate.swift in Sources */,
+				DBC79CC32986B0CA00CE69ED /* MyClosetSimpleAlert.swift in Sources */,
+				DBC79CC52986B2E400CE69ED /* MyClosetEditViewController.swift in Sources */,
 				DBFFB3512980071900E81E4D /* HomeWeatherInfo.swift in Sources */,
-				DBC076172980EA8200729178 /* HomeWearInfo.swift in Sources */,
+				DBC79CB92986AEDB00CE69ED /* MyClosetViewController.swift in Sources */,
+				DBC79CC12986B0B100CE69ED /* MyClosetPhotoAuth.swift in Sources */,
 				2FB61CE3297C260500C5092E /* SceneDelegate.swift in Sources */,
 				2FCE639D297D505A009DF514 /* LoginViewController.swift in Sources */,
+				DB32D57A2982E735002F586F /* HomeWearInfo3.swift in Sources */,
 				2FCED25E29804041000947D2 /* WatchViewController.swift in Sources */,
+				DBC79CBF2986B09800CE69ED /* MyClosetWeatherInfo.swift in Sources */,
 				2F7514C8297C3EE000CF0733 /* MyPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

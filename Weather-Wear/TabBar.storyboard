@@ -9,7 +9,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="Vpg-Of-g4W">
             <objects>
-                <tabBarController id="5bP-YV-7TR" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="TabBarViewController" id="5bP-YV-7TR" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="V0Y-xP-U5a">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -62,10 +62,23 @@
                         <rect key="frame" x="0.0" y="47" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
+                    <connections>
+                        <segue destination="oSx-wL-ppt" kind="relationship" relationship="rootViewController" id="i21-kR-vbr"/>
+                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jH2-UC-4kC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2439" y="-529"/>
+        </scene>
+        <!--MyClosetVC-->
+        <scene sceneID="kCA-rT-vzh">
+            <objects>
+                <viewControllerPlaceholder storyboardName="MyCloset" referencedIdentifier="MyClosetVC" id="oSx-wL-ppt" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="khN-OX-fQo"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qlS-lW-1xM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3142" y="-530"/>
         </scene>
         <!--채널-->
         <scene sceneID="1VW-9o-flt">
