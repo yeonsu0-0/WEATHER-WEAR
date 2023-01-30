@@ -2294,15 +2294,16 @@ class MyClosetViewController: UIViewController, CLLocationManagerDelegate & UINa
         bigImageView.leadingAnchor.constraint(equalTo: parent.leadingAnchor, constant: 0).isActive = true
         bigImageView.topAnchor.constraint(equalTo: parent.topAnchor, constant: 135).isActive = true
 
-        bigDateText.frame = CGRect(x: 0, y: 0, width: 87, height: 18)
+        //bigDateText.frame = CGRect(x: 0, y: 0, width: 87, height: 18)
+        bigDateText.sizeToFit()
         bigDateText.backgroundColor = .white
         bigDateText.textColor = UIColor(red: 0, green: 0, blue: 0, alpha: 1)
         bigDateText.font = UIFont(name: "SpoqaHanSansNeo-Medium", size: 14)
         bigDateText.text = imageCell.date
         parent.addSubview(bigDateText)
         bigDateText.translatesAutoresizingMaskIntoConstraints = false
-        bigDateText.widthAnchor.constraint(equalToConstant: 87).isActive = true
-        bigDateText.heightAnchor.constraint(equalToConstant: 18).isActive = true
+        //bigDateText.widthAnchor.constraint(equalToConstant: 87).isActive = true
+        //bigDateText.heightAnchor.constraint(equalToConstant: 18).isActive = true
         bigDateText.leadingAnchor.constraint(equalTo: parent.leadingAnchor, constant: 62).isActive = true
         bigDateText.topAnchor.constraint(equalTo: parent.topAnchor, constant: 89).isActive = true
         

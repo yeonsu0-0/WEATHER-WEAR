@@ -58,13 +58,9 @@ class MyClosetEditVeiwController: UIViewController, CLLocationManagerDelegate, U
     }
     
     let arrowLabel = UIImageView()
+    
     @IBOutlet weak var arrowButtonEdit: UIButton!
 
-    @IBAction func arrowClick(_ sender: Any) {
-        
-        self.tabBarController?.tabBar.isHidden = false
-        
-    }
     
     func designArrow() {
         
@@ -79,7 +75,7 @@ class MyClosetEditVeiwController: UIViewController, CLLocationManagerDelegate, U
         arrowLabel.widthAnchor.constraint(equalToConstant: 20.5).isActive = true
         arrowLabel.heightAnchor.constraint(equalToConstant: 16).isActive = true
         arrowLabel.leadingAnchor.constraint(equalTo: parent.leadingAnchor, constant: 22).isActive = true
-        arrowLabel.topAnchor.constraint(equalTo: parent.topAnchor, constant: 60).isActive = true
+        arrowLabel.topAnchor.constraint(equalTo: parent.topAnchor, constant: 80).isActive = true
         
         arrowButtonEdit.frame = CGRect(x: 0, y: 0, width: 20.5, height: 16)
         parent.addSubview(arrowButtonEdit)
@@ -87,7 +83,7 @@ class MyClosetEditVeiwController: UIViewController, CLLocationManagerDelegate, U
         arrowButtonEdit.widthAnchor.constraint(equalToConstant: 20.5).isActive = true
         arrowButtonEdit.heightAnchor.constraint(equalToConstant: 16).isActive = true
         arrowButtonEdit.leadingAnchor.constraint(equalTo: parent.leadingAnchor, constant: 22).isActive = true
-        arrowButtonEdit.topAnchor.constraint(equalTo: parent.topAnchor, constant: 60).isActive = true
+        arrowButtonEdit.topAnchor.constraint(equalTo: parent.topAnchor, constant: 80).isActive = true
         
     }
     
