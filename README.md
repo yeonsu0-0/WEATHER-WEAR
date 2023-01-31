@@ -5,5 +5,5 @@
 |작업기간|2023.01.16~2023.01.31|
 |---|---|
 
-### Youtube link📎
+### 📎 Youtube link
 https://youtu.be/PeMJw-e2SW0
